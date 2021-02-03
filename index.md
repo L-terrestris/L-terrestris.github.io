@@ -1,8 +1,8 @@
 ---
-title: Home
+title: EGR 557 Team 5
 ---
 
-# Home
+# Project Title : How can foldable techniques translate a small number of actuators into motion for a robot traveling through small spaces?
 
 ## Introduction
 
@@ -27,6 +27,11 @@ _Italic Text_
 1. Numbered Point 1
 1. Numbered Point 2
 1. Numbered Point 3
+
+## Assignments
+
+1. [Develop a research question](/Assignment 1)
+1. [Biomechanics Background and Initial Specifications](/Assignment 2)
 
 ## Conclusions and Future Work
 
