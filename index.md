@@ -17,6 +17,7 @@ title: EGR 557 Team 5
 
 1. [Develop a research question](/Assignment_1)
 1. [Biomechanics Background and Initial Specifications](/Assignment_2)
-
+## Image
+![image caption](https://idealab.asu.edu/assets/images/research/jumper1.png){target="_blank"}
 
 ## [Bibliography](/bibliography)
