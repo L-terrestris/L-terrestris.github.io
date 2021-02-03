@@ -7,7 +7,7 @@ Assignment Overview
 The goal of this part is to encourage you to get “bio-inspired,” to get you thinking about the scale of your robot, and to think about how to replicate the efficiencies of biological systems. You may refer to the developing specifications page for more information
 
 ## Description
-Constraints
+**Constraints**
 This year we will be focusing on one or two system models that you can modify to answer your question1 These will involve arrangements of parallel mechanisms:
 Planar mechanisms, such as four and five-bar mechanisms
 Spherical mechanisms such as spherical four or five-bar systems
@@ -16,7 +16,7 @@ The source of bioinspiration can be extant(living) or extinct, but you should be
 Focus on an animal in a size range that you can make at scale, at a reasonable cost, rather than scaling a different-sized animal up or down.
 Please check with Dr. Aukes if you need further clarification / approval.
 
-Steps
+**Steps**
 Identify a candidate organism you wish to focus on its biomechanics. This consists of a specific animal species, its body plan, and the motion of interest. Search in Google scholar, using keywords such as “anatomy,” “morphology,” “mechanics,” “biomechanics,” “ground reaction forces,” etc. along with the animal’s informal or scientific name along with the type of locomotion.
 
 List five of the most closely related research references on topics pertinent to your project, in IEEE format.
@@ -54,7 +54,7 @@ Motion plots, freeze frames of gait cycle, plot of ground reaction forces
 … other aspects of the parameters above.
 Draw the simplest engineering representation of the system you can of your proposed mechanical system. How many rigid bodies are there? How many can be approximated as massless(1/10 of the total mass or less)? Where are the springs? Where is the (main) actuator?
 
-Discussion
+**Discussion**
 In addition to answering completing each point in the procedure and discussion, please also include answers to the following questions:
 
 Discuss / defend your rationale for the size animal you selected in terms of your ability to replicate key features remotely with limited material selection.
