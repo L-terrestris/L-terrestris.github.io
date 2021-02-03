@@ -19,4 +19,4 @@ title: EGR 557 Team 5
 1. [Biomechanics Background and Initial Specifications](/Assignment_2)
 
 
-[## Bibliography](/bibliography)
+## [Bibliography](/bibliography)
