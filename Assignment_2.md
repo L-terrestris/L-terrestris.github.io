@@ -26,8 +26,12 @@ title: Assignment 2
 
 
 ### Candidate Organism for Bio-Inspiration
-Team 5 sought bio-inspiration from the biomechanics of the Lumbricus Terrestris, which is referred to as the Common Earthworm Fig 1. [1] The common earthworm poses a hydroskeleton which enables locomotion by peristalsis.
+Team 5 sought bio-inspiration from the biomechanics of the Lumbricus Terrestris, which is referred to as the Common Earthworm Fig 1. [1] The common earthworm poses a hydroskeleton which enables locomotion by peristalsis.<sup id="a1">[1](#f1)</sup>
 
+
+
+Loreum akdafjkn
+adfadfadf
 Fig 1 Anatomy of Earthworm [2]
 One of our initial tasks was to find multiple sources that are closely related to our area of research to obtain physical quantities and develop initial specifications for our robot. The team found a number of relevant articles [3]–[7] (along with several websites), three of which will be especially valuable to the project and will be described in greater detail below.
 The work of [3] on worm-like locomotion being used to control soft-bodied peristaltic robots describes the peristaltic motion of the earthworm. The locomotion of the common earthworm (peristalsis) is described as a movement process in which the earthworm segments perform axial extension and radial expansion in order to move through the environment. [4] shares information that is particularly focused on aiding the design of adaptable, dynamic robots by studying the kinematics and kinetics of the common earthworm. More specifically, the authors correlate the changes of worm segment shape to the load distribution of the worm’s weight.
@@ -214,3 +218,7 @@ Fig 6 [5]
 Fig 7 [6]
 
 Fig 8 [6]
+
+
+___
+<b id="f1">1</b> Footnote content here. [↩](#a1)
