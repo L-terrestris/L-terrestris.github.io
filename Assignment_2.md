@@ -167,4 +167,4 @@ Fig 8 [6]
 ___
 
 <b id="f1">1. </b> Peristaltic motion in earthworms involve a wave of posteriorly directed contractions. Segments contract in length and expand in diameter to anchor the worm to the ground, while anterior segments increase in length to produce forward motion. [↩](#a1)\
-<b id="f2">2. </b> <a href= "https://en.wikipedia.org/wiki/Kleiber%27s_law#cite_note-balles-4">Kleiber's law</a> [↩](#a2)
+<b id="f2">2. </b> <a href= "https://en.wikipedia.org/wiki/Kleiber%27s_law#cite_note-balles-4" target="_blank">Kleiber's law</a> [↩](#a2)
