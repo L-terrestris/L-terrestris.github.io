@@ -1,11 +1,7 @@
-Here's a simple footnote,<sup>[1](#myfootnote1)</sup>
+Bla bla <sup id="a1">[1](#f1)</sup>
 
-<a name="myfootnote1">1</a>: Footnote content goes here
+<b id="f1">1</b> Footnote content here. [↩](#a1)
 
-[^bignote]: Here's one with multiple paragraphs and code.
 
-    Indent paragraphs to include them in the footnote.
-
-    `{ my code }`
-
-    Add as many paragraphs as you like.
+Loreum akdafjkn
+adfadfadf
