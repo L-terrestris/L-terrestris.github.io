@@ -9,17 +9,17 @@ title: Develop a research question
 
 ## Team Response
 >**Content**\
-Introduction\
+[Introduction](#Introduction)\
 Tractability\
 Novelty\
 Interesting\
 Open-Ended\
 Modular\
-Team Fit\
+[Team Fit](#Team Fit)\
 Topic Fit\
 References
 
-Introduction
+### Introduction
 Team 5 was given the general topic of “Navigating Tight Spaces with Foldable Robotics” and was tasked with researching a more specific question through a semester-long course. After some initial research and consideration of criteria that have to be met, the team has decided to answer the following question:
 
 “How can foldable techniques translate a small number of actuators into motion for a robot traveling through small spaces?” 
@@ -45,7 +45,7 @@ Open-Ended
 	Our question is very much so open ended, as it leaves a lot of room for improvements and could be adapted in various areas of study. Our research question, as it stands, focuses on creating motion with a minimal amount of actuators to navigate through tight spaces. One potential area that could be further looked into past the scope of this project is how reducing the amount of actuators affects the entire system. When reducing the amount of actuators, each actuator then becomes responsible for more than just one simple way of motion, so looking into how the system gets affected could be worth researching. Another direction that our research question could be taken is adapting our project in the field of soft-robot technology. Soft robotics is an ever growing field that takes inspirations from various fields and areas of engineering, so our research question could prove to be beneficial to soft-robot technology. Lastly, the most relevant area where our research question could be expanded is with several different areas of study where there is a need to navigate through small, hard-to-reach spaces with accuracy. Our question is broad enough to where areas such as medical, mining, rescue, etc. could benefit from our research.  
 Modular
 Our research focus adds on to over a decade of work being conducted in the area of miniature robots with reduced number of actuation that can perform some specific tasks such as data acquisition in petroleum reservoirs, or navigating rough terrains. Our research seeks to build upon and contribute to this broader research thrust of promoting single-actuation of bio-inspired miniature robots. Locomotion of such robots is one step in reaching the goal of having robots navigate through areas that humans cannot get to due to size and danger - from oil exploration to complex medical surgeries. In the long run, such low-cost robots could, for instance, be fitted with cameras for taking pictures of these spaces or, in the case of surgery could be used in drug delivery or even controlled venous surgery (such as declogging cholesterol from arteries). Our research hence presents one module of the overarching goal of having tiny robots perform tasks that human beings may be unable to perform.
-Team Fit
+### Team Fit
 Generally, the team consists of members with an interest and some experience in the kinematics and control of robots. This comes in very handy given that our research focuses heavily on locomotion in miniature sized robots. In addition a number of the members on the team have experience with prototyping skills from Computer Aided Designing, to 3D printing and laser cutting. This wide range of rapid prototyping skills give us the advantage of being able to physically model our robot within the time frame of the academic semester. Members of the team also have considerable experience in scripting languages such as MATLAB and Python as well as a substantial skillset in electronics. These meet the need to script any commands as well as build and power our robot. 
 Being graduate students, the team members have experience with conducting research and will be able to leverage said research skills into learning about and completing our given research project. 
 
