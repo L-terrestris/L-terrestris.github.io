@@ -1,3 +1,1 @@
-
-You can use $$\LaTeX$$ to typeset formulas. A formula can be displayed inline, e.g. &e=mc^2&, or as a block:
-$$\int_\Omega \nabla u \cdot \nabla v~dx = \int_\Omega fv~dx$$
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}]
