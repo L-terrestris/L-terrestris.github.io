@@ -6,6 +6,7 @@ title: Develop a research question
 
 ## Description
 **Instructions**
+___
 Starting with the research question selected for your team, work on adapting and refining it to fit your team’s specific goals and this year’s course constraints (with regard to makeability, feasibility, etc)
 Defend your selected question by answering the questions below.
 
