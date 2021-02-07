@@ -12,10 +12,10 @@ title: Assignment 2
 [Bio-inspired Robots](#Bio-inspired-Robots)\
 [Table of relevant info](#Table-of-relevant-info)\
 [Extrapolation (Fill in the gaps)](#Extrapolation-(Fill-in-the-gaps))\
-[Kinetic Energy](#Kinetic-Energy)\
-[Ground Reaction Force](#Ground-Reaction-Force)\
-[Axial Acceleration](#Axial-Acceleration)\
-[Metabolic Rate](#Metabolic-Rate)\
+  [Kinetic Energy](#Kinetic-Energy)\
+  [Ground Reaction Force](#Ground-Reaction-Force)\
+  [Axial Acceleration](#Axial-Acceleration)\
+  [Metabolic Rate](#Metabolic-Rate)\
 [Figures from literature](#Figures-from-literature)\
 [Simple engineering drawing](#Simple-engineering-drawing)\
 [Discussion](#Discussion)\
