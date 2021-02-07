@@ -11,7 +11,7 @@ Our robot seeks to utilize the least number of actuators possible to complete th
 
 ## Team Members
 
-Jacob Sindorf
+Jacob Sindorf\
 jsindorf@asu.edu
 
 Javon Grimes
