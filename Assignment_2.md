@@ -93,16 +93,18 @@ _Table 1 Information on Common Earthworm_
 One important metric that we were unable to identify from the literature was the energy consumption of the earthworm during motion. This is perhaps due to the fact that most of the metrics (especially) are dependent on the mass of the earthworm. Below, we present math models of some extra metrics using some of the details in Table 1.
 
 #### Kinetic Energy
-The kinetic energy of the earthworm can be calculated by using classical mechanics. It refers to the energy expended or required by an object to move and is dependent on the mass and velocity of the object. The formula is given as ![\frac{1}{2}mv^{2}](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7B2%7Dmv%5E%7B2%7D), where _m_ is the mass, and _v_ is the velocity.
+The kinetic energy of the earthworm can be calculated by using classical mechanics. It refers to the energy expended or required by an object to move and is dependent on the mass and velocity of the object. The formula is given as  ![\frac{1}{2}mv^{2}](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7B2%7Dmv%5E%7B2%7D), where _m_ is the mass, and _v_ is the velocity.
 Using the average velocities [14] and body masses [13] of the earthworm, the kinetic energy ranges from 2.4×10<sup>-11</sup> J to 1.78×10<sup>-6 </sup>J.
+
 #### Ground Reaction Force
-The ground reaction force as described by [13] refers to the forces exerted by the worm segments on the substratum on which they move to enable anchorage. Using the average body masses [13], this value will have a range from 5.47×10-3 N - 1.07×10-1 N. 
-Axial Acceleration
-[13] presented the axial forces exerted by the earthworm during burrowing motion. Since our project focus on this ability of earthworms to navigate tight spaces, the forward acceleration will be computed using the axial force. By classical mechanics (F=ma), the forward acceleration of the earthworm will range between 0.0816 m/s2  and 2.71 m/s2.
-Metabolic Rate
-The team’s literature search did not provide a quantitative value for the metabolic rate of the earthworm. We calculated the metabolic rate using Kleiber’s law which states that the metabolic rate is the mass of the organism to the power of ¾.
+The ground reaction force as described by [13] refers to the forces exerted by the worm segments on the substratum on which they move to enable anchorage. Using the average body masses [13], this value will have a range from 5.47×10<sup>-3</sup> N - 1.07×10<sup>-1</sup> N. 
+#### Axial Acceleration
+[13] presented the axial forces exerted by the earthworm during burrowing motion. Since our project focus on this ability of earthworms to navigate tight spaces, the forward acceleration will be computed using the axial force. By classical mechanics _(F=ma)_, the forward acceleration of the earthworm will range between 0.0816 m/s<sup>2</sup>  and 2.71 m/s<sup>2</sup>.
+#### Metabolic Rate
+The team’s literature search did not provide a quantitative value for the metabolic rate of the earthworm. We calculated the metabolic rate using Kleiber’s law<sup id="a2">[2](#f2)</sup> which states that the metabolic rate is the mass of the organism to the power of ¾.\
 Using this and the body mass, the metabolic rate of the earthworm is approximately between 0.036 kcal and 5.153 kcal.
-Figures from literature
+
+### Figures from literature
 Paragraph of descriptions of figures only. See Plots and Figures
 
 Fig 4 [16] showcases the structure and locomotion of a typical earthworm. Motion of an earthworm is driven through three characteristics including metameric segmentation, antagonistic longitudinal and circular muscles, and the setae [16]. Through a wave-like contraction and extension segments, the worm is able to achieve the peristaltic motion moving some d, distance, forward. This figure helps summarize and visualize the muscle anatomy of a worm, and how it assists with peristaltic locomotion. Other robotic kinematic diagrams of their proposed device reside in this paper and could be referenced in the project. 
@@ -142,3 +144,4 @@ Fig 8 [6]
 
 ___
 <b id="f1">1. </b> Peristaltic motion in earthworms involve a wave of posteriorly directed contractions. Segments contract in length and expand in diameter to anchor the worm to the ground, while anterior segments increase in length to produce forward motion. [↩](#a1)
+<b id="f2">2. </b> https://en.wikipedia.org/wiki/Kleiber%27s_law#cite_note-balles-4 [↩](#a2)
