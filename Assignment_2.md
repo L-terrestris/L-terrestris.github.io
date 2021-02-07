@@ -143,7 +143,6 @@ Fig 5 [8]
 
 
 ![Fig6 ](https://lh6.googleusercontent.com/sb-UO2t1oxDp_qEcR8-lJ3pU_4KukTwuCCVaZZH_MfdEKi9jv2apPMU9-dYaEEoRKxzM_jbgvOv5yuWBrPUGQ4ggJLu3zP37Z85N2IHl)\
-
 Fig 6 [5]
 
 ![Fig ]()
