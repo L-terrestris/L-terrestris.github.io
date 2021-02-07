@@ -18,7 +18,7 @@ Our robot seeks to utilize the least number of actuators possible to complete th
 
 1. [Develop a Research Question](/Assignment_1)
 2. [Biomechanics Background and Initial Specifications](/Assignment_2)
-3. [Try](/EGR 557 - Biomechanics)
+3. [Try](/EGR 557 - Biomechanics.pdf)
 
 
 ## [Bibliography](/bibliography)
