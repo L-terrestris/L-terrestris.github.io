@@ -15,7 +15,7 @@ Novelty\
 Interesting\
 Open-Ended\
 Modular
-[Team Fit](#Team Fit)\
+[Team Fit](#Team-Fit)\
 Topic Fit\
 References
 
