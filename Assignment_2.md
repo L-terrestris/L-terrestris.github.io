@@ -28,8 +28,7 @@ title: Assignment 2
 ### Candidate Organism for Bio Inspiration
 Team 5 sought bio-inspiration from the biomechanics of the Lumbricus Terrestris, which is referred to as the Common Earthworm Fig 1. [1] The common earthworm poses a hydroskeleton which enables locomotion by peristalsis.<sup id="a1">[1](#f1)</sup>
 
-![Earthworm](https://lh5.googleusercontent.com/EGbR_fOccdTIwtyKJFDX80xU9FSHptXTRaxh9FZladkoiyd0DQluqMI7ZD8wlxIKgoxb6JlxeLWQvJEdAzAaaK7mey6_rUoSwwm4Goc "Anatomy of Earthworm")
-
+![Earthworm](https://lh5.googleusercontent.com/EGbR_fOccdTIwtyKJFDX80xU9FSHptXTRaxh9FZladkoiyd0DQluqMI7ZD8wlxIKgoxb6JlxeLWQvJEdAzAaaK7mey6_rUoSwwm4Goc "Anatomy of Earthworm")\
 Fig 1 Anatomy of Earthworm [2]
 
 One of our initial tasks was to find multiple sources that are closely related to our area of research to obtain physical quantities and develop initial specifications for our robot. The team found a number of relevant articles [3]–[7] (along with several websites), three of which will be especially valuable to the project and will be described in greater detail below.
@@ -47,8 +46,7 @@ The five most important papers based on bioinspired worm robots are seen in [3],
 Perhaps the most influential paper we found is the Softworm paper [3] The design effectively uses a deformable mesh to create peristaltic motion. A single drive motor creates a wave, springs to return to normal positions, and meshed cables all work together to create a robot capable of moving through tight spaces. Its unique design allows it to have minimal contact with a surface and produce little slip in both a forward and backward direction. The paper contains valuable mathematical information we could interpolate into our design. To summarize, it has simulation results, kinematics, frictional forces, important parameters, controllers (sine waves), and derivations and use of equations of motion. All the listed results and methods could be referenced when attempting our own calculations. 
 Origami and paper folding is a main component of the challenges we are faced with this semester in EGR557. [10] has extensive figures and descriptions of origami inspired techniques to create peristaltic motion. It mentions that the 2D fabrication method (through folding paper) is also a rapid prototyping method, one that would be central to this class. The paper includes a lot of useful information outside of origami folds and folding methods. However, they do list multiple folded configurations and iterations to explore. Other relevant information comes from their description of actuator selection, peristaltic motion (using a figure similar to Fig 2), control parameters, and robot speed based on friction. For origami inspiration and 2D manufacturing methods, this paper provides a strong starting point.
 
-![two mass one spring worm](https://lh4.googleusercontent.com/UZqm_uYO9xu-EHJ9IiZT_lF9-QqBLkO_NWy69_biygbgUJShXYN7YuvQGzNVE-5lCWY00BS3w6qc1kGs725eHgYrfRwRD5hdR87QtsW0Oizap4htalQ8tzfmN9yp3UBC57ssHOk "two mass one spring worm")
-
+![two mass one spring worm](https://lh4.googleusercontent.com/UZqm_uYO9xu-EHJ9IiZT_lF9-QqBLkO_NWy69_biygbgUJShXYN7YuvQGzNVE-5lCWY00BS3w6qc1kGs725eHgYrfRwRD5hdR87QtsW0Oizap4htalQ8tzfmN9yp3UBC57ssHOk "two mass one spring worm")\
 Fig 2 A two mass one spring worm [12]
 
 In [11], we see the development of the SAW robot, meaning a single actuator wave like robot. This design is the first robot mentioned not inspired by worms or their peristaltic movement but uses the sine wave. It was mentioned in [12] that modelling a worm's motion can be done using a traveling sine wave, emphasizing one important point from the SAW paper. The main reason that this paper is important is that the robot was made with very cheap parts and a single actuator (a motor). The links are driven by a helical attachment to the end of the motor allowing the robot to travel up and down narrow tubes, and across a variety of level and rough surfaces. Experiments to increase the robot’s speed and miniaturize it also provide useful directions for our experiments. Overall, this paper provides a reference on how to utilize a traveling sine wave to create cheap, single actuated robots that can travel in tight spaces.
@@ -114,7 +112,7 @@ Fig 2 is the last visualization of worm locomotion presented from [12], as it is
 The final figures (Fig 7 and Fig 8) [6] represent the pressure, stresses, and areas of worms. Fig 7 displays a segment of the worm, showing that it is composed of an outer layer in tension (muscles, epidermis), and the internal pressure that accompany it. It also displays the equations for different stress types on the worm body. Fig 8 then takes the internal pressures of a worm and graphs pressure vs time representing peristalsis and resting states. The pressure curve from peristalsis could be approximated by a square or sine wave.
 
 ### Simple engineering drawing
-![Eng. Drawing](https://lh3.googleusercontent.com/bLWtxiCGitD-boICqNUcF3WQU2buroYRfpInnnhcsWoMgCf5Mep92LyYJE1qhuCFRCIweg6dndPztaOfF5mF02HdhVyoFyLX2YIJPjm0a2UCNto9cm5mmdukibS90w)
+![Fig 3](https://lh3.googleusercontent.com/bLWtxiCGitD-boICqNUcF3WQU2buroYRfpInnnhcsWoMgCf5Mep92LyYJE1qhuCFRCIweg6dndPztaOfF5mF02HdhVyoFyLX2YIJPjm0a2UCNto9cm5mmdukibS90w)\
 Fig 3 Proposed Movement Mechanism
 
 Fig 3 depicts the first simple drawing of a proposed mechanism. Here it is four sarrus linkages, with springs between the translational motion plates, and a cable connected to the main actuator. The design takes heavy inspiration from the papers mentioned in the ‘Bio-Inspired Sources’ section.  Our goal for the system is to create the mechanism using low cost parts and decide on advancing to higher cost parts depending on the course. Purposely, we left some materials and methods vague. We want to explore the use of low-cost materials, the number of segments, and the type of actuator. Common actuator types for low cost materials would be similar to a windup toy, with low cost springs being rubber band.\
@@ -133,25 +131,38 @@ _Find a motor and battery that can supply the mechanical power needs obtained ab
 With the axial forces stated in the first question, it can be seen that there is not a need for a significantly strong motor to imitate the axial burrow force of a worm, even when scaled by 10. A simple hobby servo motor such as a 2210 Adafruit servo motor more than doubles the maximum required force. Running at 4.8 V the servo motor outputs 56.4 mNm, and the maximum output force of an earthworm scaled up by a factor of 10 is roughly 22.14 mNm. As previously stated, the 2210 Adafruit motor runs off of 4.8 V, so a simple 4.8 V battery could be used. Considering the weight-to-power ratio of the earthworm to the power of the servo, the servo is far more energy dense.
 
 ### Plots and Figures
-![Fig 4](https://lh4.googleusercontent.com/att93_wA-VugCtzS5dKVJRA8wkKzqRGjQ3EHCrorcEgRyN6eEiIZjgq6kE264udEdDDeTPlOmANrx47gq65CfyWqwZlIP0TppPwJBgoF)
-
+![Fig 4](https://lh4.googleusercontent.com/att93_wA-VugCtzS5dKVJRA8wkKzqRGjQ3EHCrorcEgRyN6eEiIZjgq6kE264udEdDDeTPlOmANrx47gq65CfyWqwZlIP0TppPwJBgoF)\
 Fig 4 [16]
 
-![Fig 5](https://lh4.googleusercontent.com/VrOExQ6Nfn44AfNRTXf0jj6VzFaK4gDVtkdAAqaU3JIoI_frg-N7NJ0rpzEqmvLfXzAxvnf9iTpL5FxGHwY0oVaBmusPgXqtjdgsD8FgQXF1atMP1Y1aW3UsA3s39WkE3338uow)
-
+![Fig 5](https://lh4.googleusercontent.com/VrOExQ6Nfn44AfNRTXf0jj6VzFaK4gDVtkdAAqaU3JIoI_frg-N7NJ0rpzEqmvLfXzAxvnf9iTpL5FxGHwY0oVaBmusPgXqtjdgsD8FgQXF1atMP1Y1aW3UsA3s39WkE3338uow)\
 Fig 5 [8]
-
 
 ![Fig6 ](https://lh6.googleusercontent.com/sb-UO2t1oxDp_qEcR8-lJ3pU_4KukTwuCCVaZZH_MfdEKi9jv2apPMU9-dYaEEoRKxzM_jbgvOv5yuWBrPUGQ4ggJLu3zP37Z85N2IHl)\
 Fig 6 [5]
 
-![Fig ]()
+![Fig 7](https://lh5.googleusercontent.com/KP__uzGNw6G6JOP2JlZFlGQ7s2iXtvjTlGXB_Xv1gXDmqMGKjo_ScmIQ42YORDjdYmSyRCSXaKaO1QcsOGj-6yL5IEjTzZ4ket5P0KcpNJgLf9s94t9e_wDYXNULWoc5qwz1yVc)\
 Fig 7 [6]
 
-![Fig ]()
+![Fig 8](https://lh5.googleusercontent.com/Jc9UsUDMjCIH6TqovGYV5HmO10VFlPiBV-rDt2wmT-NJtq014jVOBlK8rFxQfNeMVb8Wre4XUr01Il0NA5NyxepR8ec-HPqwzcfFirDMf764xAVO5ss-i3t4QUbre1ARkk4zorY)\
 Fig 8 [6]
 
-
+### References
+[1]	“Common Earthworm,” National Geographic. [Online]. Available: https://www.nationalgeographic.com/animals/invertebrates/c/common-earthworm/. \
+[2]	“COMMON EARTHWORM (LUMBRICUS TERRESTRIS).” [Online]. Available: https://hailhydraskeletalsystem.weebly.com/common-earthworm-lumbricus-terrestris.html. \
+[3]	K. A. Daltorio, A. S. Boxerbaum, A. D. Horchler, K. M. Shaw, H. J. Chiel, and R. D. Quinn, “Efficient worm-like locomotion: Slip and control of soft-bodied peristaltic robots,” Bioinspiration and Biomimetics, vol. 8, no. 3, 2013. \
+[4]	E. N. Kanu, K. A. Daltorio, R. D. Quinn, and H. J. Chiel, “Correlating kinetics and kinematics of earthworm peristaltic locomotion,” Lect. Notes Comput. Sci. (including Subser. Lect. Notes Artif. Intell. Lect. Notes Bioinformatics), vol. 9222, pp. 92–96, 2015. \
+[5]	T. G. Piearce, “Functional morphology of lumbricid earthworms, with special reference to locomotion,” J. Nat. Hist., vol. 17, no. 1, pp. 95–111, Feb. 1983. \
+[6]	K. J. Quillin, “Ontogenetic scaling of hydrostatic skeletons: geometric, static stress and dynamic stress scaling of the earthworm lumbricus terrestris,” J. Exp. Biol., vol. 201, no. 12, pp. 1871 LP – 1883, Jun. 1998. \
+[7]	K. J. Quillin, “Kinematic scaling of locomotion by hydrostatic animals: ontogeny of peristaltic crawling by the earthworm lumbricus terrestris,” J. Exp. Biol., vol. 202, no. 6, pp. 661 LP – 674, Mar. 1999. \
+[8]	T. Nakamura, T. Kato, T. Iwanaga, and <br>and Yoichi Muranaka, “Development of a Peristaltic Crawling Robot Based on Earthworm Locomotion,” J. Robot. Mechatronics, vol. 18, no. 3, pp. 299–304, 2006. \
+[9]	A. Kandhari, A. Mehringer, H. J. Chiel, R. D. Quinn, and K. A. Daltorio, “Design and Actuation of a Fabric-Based Worm-Like Robot,” Biomimetics , vol. 4, no. 1. 2019. \
+[10]	C. D. Onal, R. Wood, and D. Rus, “An Origami-Inspired Approach to Worm Robots,” Mechatronics, IEEE/ASME Trans., vol. 18, pp. 430–438, Apr. 2013. \
+[11]	D. Zarrouk, M. Mann, N. Degani, T. Yehuda, N. Jarbi, and A. Hess, “Single actuator wave-like robot (SAW): design, modeling, and experiments,” Bioinspir. Biomim., vol. 11, no. 4, p. 46004, 2016. \
+[12]	G. Miller, The motion dynamics of snakes and worms, vol. 22. 1988. \
+[13]	K. J. Quillin, “Ontogenetic scaling of burrowing forces in the earthworm Lumbricus terrestris,” J. Exp. Biol., vol. 203, no. 18, pp. 2757–2770, 2000. \
+[14]	Jim, “Random Worm Facts,” Uncle Jim’s Worm Farm. [Online]. Available: https://unclejimswormfarm.com/random-worm-facts/. \
+[15]	L. T. L and B. Y. M. K. Seymour, “Locomotion and Coelomic Pressure in Lumbricus Terrestris L,” J. Exp. Biol., vol. 51, no. 1, pp. 47–58, 1969. \
+[16]	R. Liu and Y. Yao, “A novel serial–parallel hybrid worm-like robot with multi-mode undulatory locomotion,” Mech. Mach. Theory, vol. 137, pp. 404–431, 2019. \
 ___
 <b id="f1">1. </b> Peristaltic motion in earthworms involve a wave of posteriorly directed contractions. Segments contract in length and expand in diameter to anchor the worm to the ground, while anterior segments increase in length to produce forward motion. [↩](#a1)\
 <b id="f2">2. </b> https://en.wikipedia.org/wiki/Kleiber%27s_law#cite_note-balles-4 [↩](#a2)
