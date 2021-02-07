@@ -59,28 +59,28 @@ The information collected from our most significant references along with other 
 _Table 1 Information on Common Earthworm_
 | Parameter      | Unit | Value Range | Reference |
 | ----------- | ----------- | ----------- | ----------- |
-Body mass (mb)| kg  | 1.2×10<sup>-5</sup>- 8.9×10-3 |[13] |
+Body mass (mb)| kg  | 1.2×10<sup>-5</sup>- 8.9×10<sup>-3<\sup> |[13] |
 Average Velocity | m/s  | 0.002 – 0.02 |[14] |
-Radial Burrow Force| N  | 0.32mb0.43 |[13] |
-Axial Burrow Force| N  | 0.26mb 0.47 |[13] |
-Anchoring Force (GRF)| N  | 0.04mb0.45 |[13] |
-Relative crawling speed| body length s-1  | 0.037 mb0.0006 |[13] |
-Relative burrowing speed| body length s-1  | 0.007 mb-0.06 |[13] |
-Burrowing Stride frequency| s-1  | 0.16mb-0.06 |[13] |
-Crawling Stride frequency| s-1  | 0.25mb-0.07 |[13] |
-Relative burrowing stride length| body length  | 0.04mb0.03 |[13] |
-Relative crawling stride length| body length s-1  | 0.15mb0.07 |[13] |
-Resting body length| m  | 102mb0.34×10-3 |[6] |
-Mean Length| m  | 124×10-3 |[5] |
+Radial Burrow Force| N  | 0.32mb<sup>0.<\sup>43 |[13] |
+Axial Burrow Force| N  | 0.26mb <sup>0.<\sup>47 |[13] |
+Anchoring Force (GRF)| N  | 0.04mb<sup>0.<\sup>45 |[13] |
+Relative crawling speed| body length s<sup>-1<\sup>  | 0.037 mb<sup>0.<\sup>0006 |[13] |
+Relative burrowing speed| body length s<sup>-1<\sup>  | 0.007 mb<sup>-0<\sup>.06 |[13] |
+Burrowing Stride frequency| s<sup>-1<\sup>  | 0.16mb<sup>-0.06<\sup> |[13] |
+Crawling Stride frequency| s<sup>-1<\sup>  | 0.25mb<sup>-0.07<\sup> |[13] |
+Relative burrowing stride length| body length  | 0.04mb<sup>0.03<\sup> |[13] |
+Relative crawling stride length| body length s<sup>-1<\sup>  | 0.15mb<sup>0.<\sup>07 |[13] |
+Resting body length| m  | 102mb<sup>0.34<\sup>×10<sup>-3<\sup> |[6] |
+Mean Length| m  | 124×10<sup>-3<\sup> |[5] |
 Mean Length/Mean Diameter|   | 18.1 |[5] |
 Posterior/Anterior Diameter|   | 0.88 |[5] |
 height/width (anterior)|   | 0.89 |[5] |
 height/width (posterior)|   | 0.62 |[5] |
 height/width (middle)|   | 0.77 |[5] |
-Mean preclitellar length| m  | (133±4) ×10-3 |[5] |
-Mean postcliterllar length| m  | (84±3) ×10-3 |[5] |
-Mean preclitellar diameter| m  | (704±16) ×10-3 |[5] |
-Mean postcliterllar diameter| m  | (646±17) ×10-3 |[5] |
+Mean preclitellar length| m  | (133±4) ×10<sup>-3<\sup> |[5] |
+Mean postcliterllar length| m  | (84±3) ×10<sup>-3<\sup> |[5] |
+Mean preclitellar diameter| m  | (704±16) ×10<sup>-3<\sup> |[5] |
+Mean postcliterllar diameter| m  | (646±17) ×10<sup>-3<\sup> |[5] |
 Burrow depth| m  | 0.25 |[5] |
 Mean pressures at circular muscle contraction  | Pa  | 1176.798 |[15] |
 Mean pressures at longitudinal muscle contraction | Pa  | 686.4655 |[15] |
