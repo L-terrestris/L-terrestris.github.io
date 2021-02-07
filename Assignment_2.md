@@ -19,8 +19,8 @@ title: Assignment 2
 [Figures from literature](#Figures-from-literature)\
 [Simple engineering drawing](#Simple-engineering-drawing)\
 [Discussion](#Discussion)\
-[Rationale for animal](#Rationale-for-animal)\
-[Motor and battery](#Motor-and-battery)\
+  -[Rationale for animal](#Rationale-for-animal)\
+  -[Motor and battery](#Motor-and-battery)\
 [Plots and Figures](#Plots-and-Figures)\
 [References](#References)
 
@@ -117,30 +117,38 @@ The final figures (Fig 7 and Fig 8) [6] represent the pressure, stresses, and ar
 ![Eng. Drawing](https://lh3.googleusercontent.com/bLWtxiCGitD-boICqNUcF3WQU2buroYRfpInnnhcsWoMgCf5Mep92LyYJE1qhuCFRCIweg6dndPztaOfF5mF02HdhVyoFyLX2YIJPjm0a2UCNto9cm5mmdukibS90w)
 Fig 3 Proposed Movement Mechanism
 
-Fig 3 depicts the first simple drawing of a proposed mechanism. Here it is four sarrus linkages, with springs between the translational motion plates, and a cable connected to the main actuator. The design takes heavy inspiration from the papers mentioned in the ‘Bio-Inspired Sources’ section.  Our goal for the system is to create the mechanism using low cost parts and decide on advancing to higher cost parts depending on the course. Purposely, we left some materials and methods vague. We want to explore the use of low-cost materials, the number of segments, and the type of actuator. Common actuator types for low cost materials would be similar to a windup toy, with low cost springs being rubber band
-The top representation labeled ‘Rest’ represents the passive state of the mechanism with springs forcing it to one position. Masses, ms and ma, are displayed as well to show the potential mass points on the system for calculations. Length and height of the system would seek to scale up the size of the worm, as low-cost materials for small sizes wouldn’t be a viable option. 
-The ‘Compress’ display shows how the cable compresses the spring, forcing the sarrus link to compress and its overall height to grow. Next to compress is a detail of each individual sarrus link and the proposed actuator method. The actuator method would be similar to the softworm robot [3] as it would use a rotating actuator and offset cables to compress segments at different points. 
+Fig 3 depicts the first simple drawing of a proposed mechanism. Here it is four sarrus linkages, with springs between the translational motion plates, and a cable connected to the main actuator. The design takes heavy inspiration from the papers mentioned in the ‘Bio-Inspired Sources’ section.  Our goal for the system is to create the mechanism using low cost parts and decide on advancing to higher cost parts depending on the course. Purposely, we left some materials and methods vague. We want to explore the use of low-cost materials, the number of segments, and the type of actuator. Common actuator types for low cost materials would be similar to a windup toy, with low cost springs being rubber band.\
+The top representation labeled ‘Rest’ represents the passive state of the mechanism with springs forcing it to one position. Masses, ms and ma, are displayed as well to show the potential mass points on the system for calculations. Length and height of the system would seek to scale up the size of the worm, as low-cost materials for small sizes wouldn’t be a viable option.\
+The ‘Compress’ display shows how the cable compresses the spring, forcing the sarrus link to compress and its overall height to grow. Next to compress is a detail of each individual sarrus link and the proposed actuator method. The actuator method would be similar to the softworm robot [3] as it would use a rotating actuator and offset cables to compress segments at different points. \
 An estimate isometric view is also included to provide 3D visualization of the device.
-Discussion
-Rationale for animal
-Discuss / defend your rationale for the size animal you selected in terms of your ability to replicate key features remotely with limited material selection.
+### Discussion
+#### Rationale for animal
+_Discuss / defend your rationale for the size animal you selected in terms of your ability to replicate key features remotely with limited material selection._
 
 The animal that we chose to model our device after is a typical earthworm. Due to the small amount of forces and velocity that an earthworm is able to produce, we will need to scale up our design from the actual size of an earthworm. Also, due to the fact we are attempting to reduce the amount of actuators and use cheap materials furthermore justifies our need to scale up the size of our design. According to the table on number 3, an earthworm’s axial burrow force can range from 0.0325 N to 0.7264 N. Realistically, for one actuator to drive an entire system of lightweight materials, the axial burrow force would need to be scaled by a factor of 10 minimum.
-Motor and battery
-Find a motor and battery that can supply the mechanical power needs obtained above. Consider that motor efficiencies may be as high as 95%, but if you can’t find it listed, assume you find a more affordable motor at 50-70% efficiency. Compare the mechanical watts/kg for the necessary motor and battery vs the animal’s mechanical power/mass above? Which one is more energy dense?
+
+#### Motor and battery
+_Find a motor and battery that can supply the mechanical power needs obtained above. Consider that motor efficiencies may be as high as 95%, but if you can’t find it listed, assume you find a more affordable motor at 50-70% efficiency. Compare the mechanical watts/kg for the necessary motor and battery vs the animal’s mechanical power/mass above? Which one is more energy dense?_
 
 With the axial forces stated in the first question, it can be seen that there is not a need for a significantly strong motor to imitate the axial burrow force of a worm, even when scaled by 10. A simple hobby servo motor such as a 2210 Adafruit servo motor more than doubles the maximum required force. Running at 4.8 V the servo motor outputs 56.4 mNm, and the maximum output force of an earthworm scaled up by a factor of 10 is roughly 22.14 mNm. As previously stated, the 2210 Adafruit motor runs off of 4.8 V, so a simple 4.8 V battery could be used. Considering the weight-to-power ratio of the earthworm to the power of the servo, the servo is far more energy dense.
-Plots and Figures
+
+### Plots and Figures
+![Fig 4](https://lh4.googleusercontent.com/att93_wA-VugCtzS5dKVJRA8wkKzqRGjQ3EHCrorcEgRyN6eEiIZjgq6kE264udEdDDeTPlOmANrx47gq65CfyWqwZlIP0TppPwJBgoF)
 
 Fig 4 [16]
 
+![Fig 5](https://lh4.googleusercontent.com/VrOExQ6Nfn44AfNRTXf0jj6VzFaK4gDVtkdAAqaU3JIoI_frg-N7NJ0rpzEqmvLfXzAxvnf9iTpL5FxGHwY0oVaBmusPgXqtjdgsD8FgQXF1atMP1Y1aW3UsA3s39WkE3338uow)
 
 Fig 5 [8]
 
+
+![Fig6 ](https://lh6.googleusercontent.com/sb-UO2t1oxDp_qEcR8-lJ3pU_4KukTwuCCVaZZH_MfdEKi9jv2apPMU9-dYaEEoRKxzM_jbgvOv5yuWBrPUGQ4ggJLu3zP37Z85N2IHl)
 Fig 6 [5]
 
+![Fig ]()
 Fig 7 [6]
 
+![Fig ]()
 Fig 8 [6]
 
 
