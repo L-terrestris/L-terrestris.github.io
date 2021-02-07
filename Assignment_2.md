@@ -27,7 +27,9 @@ title: Assignment 2
 
 ### Candidate Organism for Bio Inspiration
 Team 5 sought bio-inspiration from the biomechanics of the Lumbricus Terrestris, which is referred to as the Common Earthworm Fig 1. [1] The common earthworm poses a hydroskeleton which enables locomotion by peristalsis.<sup id="a1">[1](#f1)</sup>
+
 ![Earthworm](https://lh5.googleusercontent.com/EGbR_fOccdTIwtyKJFDX80xU9FSHptXTRaxh9FZladkoiyd0DQluqMI7ZD8wlxIKgoxb6JlxeLWQvJEdAzAaaK7mey6_rUoSwwm4Goc "Anatomy of Earthworm")
+
 Fig 1 Anatomy of Earthworm [2]
 
 One of our initial tasks was to find multiple sources that are closely related to our area of research to obtain physical quantities and develop initial specifications for our robot. The team found a number of relevant articles [3]–[7] (along with several websites), three of which will be especially valuable to the project and will be described in greater detail below.
