@@ -10,7 +10,7 @@ title: Develop a research question
 2. Defend your selected question by answering the questions below.
 
 >> **Discussion**\
-What is your research question?
+What is your research question?\
 After describing your research question, explain your rationale for why it is a good question to ask by answering the following questions. For each numbered answer provide at least one paragraph per response.
 
 Tractability: Is your question tractable and achievable? Discuss your plan for scoping your problem to fit in a 15-week course. (>1 paragraph)
