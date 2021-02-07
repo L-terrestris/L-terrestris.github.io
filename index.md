@@ -12,7 +12,7 @@ Our robot seeks to utilize the least number of actuators possible to complete th
 ## Team Members
 
 | Jacob Sindorf | Javon Grimes | Jonathan Nguyen |Gilgal Ansah |
-| jsindorf@asu.edu | jdgrime1@asu.edu | jrnguyen@asu.edu |gjansah@asu.edu |
+| <jsindorf@asu.edu> | <jdgrime1@asu.edu> | <jrnguyen@asu.edu> | <gjansah@asu.edu> |
 
 ## Assignments
 
