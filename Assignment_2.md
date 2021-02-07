@@ -24,4 +24,4 @@ title: Assignment 2
 [Plots and Figures](#Plots-and-Figures)\
 [References](#References)
 
-[!Earthworm](https://lh6.googleusercontent.com/p2KX5-MhGpf5Q9-kxDkOOQHIwSOTJMs75ORg4sLSRA7uSt71cbpWK8aVMH2ZbwW4exRasqMY0e1e8Baj50gxUaet552xfOrstZLYYWDXubmDMaH525cC558cnrg8g9Qcr16qVFQ)
+![Earthworm](https://lh6.googleusercontent.com/p2KX5-MhGpf5Q9-kxDkOOQHIwSOTJMs75ORg4sLSRA7uSt71cbpWK8aVMH2ZbwW4exRasqMY0e1e8Baj50gxUaet552xfOrstZLYYWDXubmDMaH525cC558cnrg8g9Qcr16qVFQ)
