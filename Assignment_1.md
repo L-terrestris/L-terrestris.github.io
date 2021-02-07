@@ -2,14 +2,14 @@
 title: Develop a research question
 ---
 
-> # Develop a research question
+# Develop a research question
 
->> ## Description
-**Instructions**\
-Starting with the research question selected for your team, work on adapting and refining it to fit your team’s specific goals and this year’s course constraints (with regard to makeability, feasibility, etc)
-Defend your selected question by answering the questions below.
+## Description
+>> **Instructions**\
+1. Starting with the research question selected for your team, work on adapting and refining it to fit your team’s specific goals and this year’s course constraints (with regard to makeability, feasibility, etc)
+2. Defend your selected question by answering the questions below.
 
-**Discussion**\
+>> **Discussion**\
 What is your research question?
 
 After describing your research question, explain your rationale for why it is a good question to ask by answering the following questions. For each numbered answer provide at least one paragraph per response.
