@@ -14,13 +14,13 @@ Our robot seeks to utilize the least number of actuators possible to complete th
 Jacob Sindorf\
 jsindorf@asu.edu
 
-Javon Grimes
+Javon Grimes\
 jdgrime1@asu.edu
 
-Jonathan Nguyen
+Jonathan Nguyen\
 jrnguyen@asu.edu
 
-Gilgal Ansah
+Gilgal Ansah\
 gjansah@asu.edu
 
 ## Assignments
