@@ -51,3 +51,14 @@ Being graduate students, the team members have experience with conducting resear
 
 ### Topic Fit
 Our research question has the potential to use multiple aspects of foldable robotics techniques to answer it. One of the foldable robotic techniques that would be used to answer our research question is that of using folding techniques to create or improve motion. As seen in the pop-up book assignment, there are a plethora of folding techniques, and many of them can be used to create unique motions. The combination of folding techniques paired with an actuator to create motion fits perfectly within the scope of the class. Not only can the folding techniques be used to create motion, but the folding techniques could also be used for the structural component of our project. Lastly, we want to show that we can optimize the movement of our robot through the use of only one actuator, so we will need to rely heavily on folding techniques to carry out the motion for the actuator. 
+
+### References
+[1] C. D. Onal, R. J. Wood and D. Rus, "An Origami-Inspired Approach to Worm Robots," in IEEE/ASME Transactions on Mechatronics, vol. 18, no. 2, pp. 430-438, April 2013, doi: 10.1109/TMECH.2012.2210239.
+[2] Banerjee, H., Pusalkar, N., and Ren, H. (September 7, 2018). "Single-Motor Controlled Tendon-Driven Peristaltic Soft Origami Robot." ASME. J. Mechanisms Robotics. December 2018; 10(6): 064501. https://doi.org/10.1115/1.4041200
+[3] B. Winstone, T. Pipe, C. Melhuish, M. Callaway, A. C. Etoundi and S. Dogramadzi, "Single motor actuated peristaltic wave generator for a soft bodied worm robot," 2016 6th IEEE International Conference on Biomedical Robotics and Biomechatronics (BioRob), Singapore, 2016, pp. 449-456, doi: 10.1109/BIOROB.2016.7523668.
+[4] J. Koh and K. Cho, "Omegabot : Biomimetic inchworm robot using SMA coil actuator and smart composite microstructures (SCM)," 2009 IEEE International Conference on Robotics and Biomimetics (ROBIO), Guilin, 2009, pp. 1154-1159, doi: 10.1109/ROBIO.2009.5420752.
+[5] Xintian Tang, Kai Li, Yingxiang Liu, Dong Zhou, Jianguo Zhao,
+A soft crawling robot driven by single twisted and coiled actuator,
+Sensors and Actuators A: Physical, Volume 291, 2019, Pages 80-86, ISSN 0924-4247
+https://doi.org/10.1016/j.sna.2019.03.049
+[6] David Zarrouk et al 2016 Bioinspir. Biomim. 11 046004
