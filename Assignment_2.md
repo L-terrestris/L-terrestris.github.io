@@ -103,7 +103,7 @@ The team’s literature search did not provide a quantitative value for the meta
 Using this and the body mass, the metabolic rate of the earthworm is approximately between 0.036 kcal and 5.153 kcal.
 
 ### Figures from literature
-Paragraph of descriptions of figures only. See [Plots and Figures](#Plots-and-Figures)\
+Paragraph of descriptions of figures only. See [Plots and Figures](#Plots-and-Figures)
 
 Fig 4 [16] showcases the structure and locomotion of a typical earthworm. Motion of an earthworm is driven through three characteristics including metameric segmentation, antagonistic longitudinal and circular muscles, and the setae [16]. Through a wave-like contraction and extension segments, the worm is able to achieve the peristaltic motion moving some d, distance, forward. This figure helps summarize and visualize the muscle anatomy of a worm, and how it assists with peristaltic locomotion. Other robotic kinematic diagrams of their proposed device reside in this paper and could be referenced in the project. 
 Similar to Fig 4, Fig 5 from [8, Fig. 1, Fig. 2] summarizes the anatomy and locomotion of an earthworm. Multiple sources and figures providing different graphics of a similar topic solidify understanding. To add to the understanding of Fig 4, Fig 5 provides a segment and landmark chart of a 140 mm long worm with landmarks at 19mm intervals (thickness of worm was 4mm). The motion of the worm was recorded and analyzed. [8, Fig. 4] shows the displacement vs time graph of the landmarked points to display how locomotion propagates from the front to the back of the worm. The worm had an average speed of around 16.1 mm/s. 
@@ -162,7 +162,9 @@ Fig 8 [6]
 [13]	K. J. Quillin, “Ontogenetic scaling of burrowing forces in the earthworm Lumbricus terrestris,” J. Exp. Biol., vol. 203, no. 18, pp. 2757–2770, 2000. \
 [14]	Jim, “Random Worm Facts,” Uncle Jim’s Worm Farm. [Online]. Available: https://unclejimswormfarm.com/random-worm-facts/. \
 [15]	L. T. L and B. Y. M. K. Seymour, “Locomotion and Coelomic Pressure in Lumbricus Terrestris L,” J. Exp. Biol., vol. 51, no. 1, pp. 47–58, 1969. \
-[16]	R. Liu and Y. Yao, “A novel serial–parallel hybrid worm-like robot with multi-mode undulatory locomotion,” Mech. Mach. Theory, vol. 137, pp. 404–431, 2019. 
+[16]	R. Liu and Y. Yao, “A novel serial–parallel hybrid worm-like robot with multi-mode undulatory locomotion,” Mech. Mach. Theory, vol. 137, pp. 404–431, 2019.
+
 ___
+
 <b id="f1">1. </b> Peristaltic motion in earthworms involve a wave of posteriorly directed contractions. Segments contract in length and expand in diameter to anchor the worm to the ground, while anterior segments increase in length to produce forward motion. [↩](#a1)\
 <b id="f2">2. </b> https://en.wikipedia.org/wiki/Kleiber%27s_law#cite_note-balles-4 [↩](#a2)
