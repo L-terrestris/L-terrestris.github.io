@@ -27,11 +27,9 @@ title: Assignment 2
 
 ### Candidate Organism for Bio Inspiration
 Team 5 sought bio-inspiration from the biomechanics of the Lumbricus Terrestris, which is referred to as the Common Earthworm Fig 1. [1] The common earthworm poses a hydroskeleton which enables locomotion by peristalsis.<sup id="a1">[1](#f1)</sup>
-
-
-
-
+![Earthworm](https://lh5.googleusercontent.com/EGbR_fOccdTIwtyKJFDX80xU9FSHptXTRaxh9FZladkoiyd0DQluqMI7ZD8wlxIKgoxb6JlxeLWQvJEdAzAaaK7mey6_rUoSwwm4Goc "Anatomy of Earthworm")
 Fig 1 Anatomy of Earthworm [2]
+
 One of our initial tasks was to find multiple sources that are closely related to our area of research to obtain physical quantities and develop initial specifications for our robot. The team found a number of relevant articles [3]–[7] (along with several websites), three of which will be especially valuable to the project and will be described in greater detail below.
 The work of [3] on worm-like locomotion being used to control soft-bodied peristaltic robots describes the peristaltic motion of the earthworm. The locomotion of the common earthworm (peristalsis) is described as a movement process in which the earthworm segments perform axial extension and radial expansion in order to move through the environment. [4] shares information that is particularly focused on aiding the design of adaptable, dynamic robots by studying the kinematics and kinetics of the common earthworm. More specifically, the authors correlate the changes of worm segment shape to the load distribution of the worm’s weight.
 One of the more comprehensive papers, in terms of what Team 5 is trying to accomplish, is [5]which discusses the functional morphology of lumbricid earthworms. This study on multiple species of worms provides some insight into the locomotion of earthworms. Lumbricus terrestris earthworms, compared to other species in the genus, are relatively lengthy with a large number of segments and possess thin bodies made for burrowing. The author discusses the abilities of the worms’ individual segments, noting that an ideal or hypothetical earthworm segment can triple in length as it contracts to half its diameter. Additionally, the article notes that the shorter, thicker body forms may contribute to faster movement, since they are able to constrict further, hence allowing a further extension. Such information will be especially useful to the team and will help shape the movement structure of our project.
@@ -220,4 +218,4 @@ Fig 8 [6]
 
 
 ___
-<b id="f1">1. </b> Peristaltic motion in earthworms involve a wave of posteriorly directed contractions. Segments contract in length and expand in diameter to anchor the worm to the ground, while anterior segments increase in length to produce forward motion.. [↩](#a1)
+<b id="f1">1. </b> Peristaltic motion in earthworms involve a wave of posteriorly directed contractions. Segments contract in length and expand in diameter to anchor the worm to the ground, while anterior segments increase in length to produce forward motion. [↩](#a1)
