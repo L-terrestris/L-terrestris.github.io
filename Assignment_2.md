@@ -57,6 +57,7 @@ In [11], we see the development of the SAW robot, meaning a single actuator wave
 The information collected from our most significant references along with other sources was collated into the table of animal specifications below.
 
 _Table 1 Information on Common Earthworm_
+
 | Parameter      | Unit | Value Range | Reference |
 | --- | --- | --- | --- |
 | Body mass (m<sub>b</sub>) | kg  | 1.2×10<sup>-5</sup>- 8.9×10<sup>-3</sup> | [13] |
