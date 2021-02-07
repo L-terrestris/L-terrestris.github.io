@@ -10,11 +10,11 @@ title: Develop a research question
 ## Team Response
 >**Content**\
 [Introduction](#Introduction)\
-Tractability\
+[Tractability](#Tractability)\
 Novelty\
 Interesting\
 Open-Ended\
-Modular\
+Modular
 [Team Fit](#Team Fit)\
 Topic Fit\
 References
@@ -22,12 +22,12 @@ References
 ### Introduction
 Team 5 was given the general topic of “Navigating Tight Spaces with Foldable Robotics” and was tasked with researching a more specific question through a semester-long course. After some initial research and consideration of criteria that have to be met, the team has decided to answer the following question:
 
-“How can foldable techniques translate a small number of actuators into motion for a robot traveling through small spaces?” 
+_How can foldable techniques translate a small number of actuators into motion for a robot traveling through small spaces?_
 
 This paper will explain the aforementioned criteria and detail the thought process that was followed to meet those criteria with a more specific research question.
-Tractability
+###Tractability
 
-	The team has come across many ideas that would have been interesting to explore. However, due to the nature of the class for which this project will be carried out, there exist some constraints that will need to be met in order to make the project tractable/achievable. The main elements affecting the project scope are time and budget. Considering that the class mentioned above is a semester-long project class, the total time available to the team is about 15 weeks. With this in mind, the complexity we aim for will be kept to a minimum. Since this is a class environment, all of the team members are still learning. As such, keeping the scope of the project slim will ensure that we do not bite off more than we can chew in the allotted time. To further save time, the team will draw inspiration from already existing sources, particularly the motion of worms and previous projects with aims similar to our own. The last major way the team will attempt to cut down on time is through the choice of materials. Due to the nature of foldable techniques, structural components can be created with easily attainable materials such as paper, cardboard, or similar. Functional components also need to be considered. By minimizing the use of actuators, the team will be able to spend less time waiting for ordered parts and spend more time prototyping.
+The team has come across many ideas that would have been interesting to explore. However, due to the nature of the class for which this project will be carried out, there exist some constraints that will need to be met in order to make the project tractable/achievable. The main elements affecting the project scope are time and budget. Considering that the class mentioned above is a semester-long project class, the total time available to the team is about 15 weeks. With this in mind, the complexity we aim for will be kept to a minimum. Since this is a class environment, all of the team members are still learning. As such, keeping the scope of the project slim will ensure that we do not bite off more than we can chew in the allotted time. To further save time, the team will draw inspiration from already existing sources, particularly the motion of worms and previous projects with aims similar to our own. The last major way the team will attempt to cut down on time is through the choice of materials. Due to the nature of foldable techniques, structural components can be created with easily attainable materials such as paper, cardboard, or similar. Functional components also need to be considered. By minimizing the use of actuators, the team will be able to spend less time waiting for ordered parts and spend more time prototyping.
 
 Both of the previous considerations also serve to keep the budget down to a minimum. Paper-like materials are inexpensive and easily found practically anywhere, and cutting down on actuators saves even more funds. Additionally, the team can make use of rapid prototyping techniques, particularly 3D printing and laser cutting, to achieve designs in a quick yet inexpensive way. The combination of all these constraints will allow for the completion of the project within the 15-week semester.
 Novelty
