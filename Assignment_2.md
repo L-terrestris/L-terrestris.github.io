@@ -59,7 +59,7 @@ The information collected from our most significant references along with other 
 _Table 1 Information on Common Earthworm_
 | Parameter      | Unit | Value Range | Reference |
 | ----------- | ----------- | ----------- | ----------- |
-Body mass (mb)| kg  | 1.2×10-5- 8.9×10-3 |[13] |
+Body mass (mb)| kg  | 1.2×10<sup>-5</sup>- 8.9×10-3 |[13] |
 Average Velocity | m/s  | 0.002 – 0.02 |[14] |
 Radial Burrow Force| N  | 0.32mb0.43 |[13] |
 Axial Burrow Force| N  | 0.26mb 0.47 |[13] |
@@ -87,131 +87,7 @@ Mean pressures at longitudinal muscle contraction | Pa  | 686.4655 |[15] |
 Mean locomotory Longitudinal Muscle tension value| g/cm2  | 25 |[15] |
 Mean locomotory Circular Muscle tension values| g/cm2  | 212 |[15] |
 
-
-
-
-
-
-
-Parameter
-Unit
-Value Range 
-Reference
-Body mass (mb)
-kg
-1.2×10-5- 8.9×10-3
-[13]
-Average Velocity 
-m/s
-0.002 – 0.02
-[14]
-Radial Burrow Force
-N
-0.32mb0.43
-[13]
-Axial Burrow Force
-N
-0.26mb 0.47
-[13]
-Anchoring Force (GRF)
-N
-0.04mb0.45
-[13]
-Relative crawling speed
-body length s-1
-0.037 mb0.0006
-[13]
-Relative burrowing speed
-body length s-1
-0.007 mb-0.06
-[13]
-Burrowing Stride frequency
-s-1
-0.16mb-0.06
-[13]
-Crawling Stride frequency
-s-1
-0.25mb-0.07
-[13]
-Relative burrowing stride length
-body length
-0.04mb0.03
-[13]
-Relative crawling stride length
-body length s-1
-0.15mb0.07
-[13]
-Resting body length
-m
-102mb0.34×10-3
-[6]
-Mean Length
-m
-124×10-3
-[5]
-Mean Length/Mean Diameter
-
-
-18.1
-[5]
-Posterior/Anterior Diameter
-
-
-0.88
-[5]
-height/width (anterior)
-
-
-0.89
-[5]
-height/width (posterior)
-
-
-0.62
-[5]
-height/width (middle)
-
-
-0.77
-[5]
-Mean preclitellar length
-m
-(133±4) ×10-3
-[5]
-Mean postcliterllar length
-m
-(84±3) ×10-3
-[5]
-Mean preclitellar diameter
-m
-(704±16) ×10-3
-[5]
-Mean postcliterllar diameter
-m
-(646±17) ×10-3
-[5]
-Burrow depth
-m
-0.25
-[5]
-Mean pressures at circular muscle contraction  
-Pa
-1176.798
-[15]
-Mean pressures at longitudinal muscle contraction 
-Pa
-686.4655
-[15]
-Mean locomotory Longitudinal Muscle tension value
-g/cm2
-25
-[15]
-Mean locomotory Circular Muscle tension values
-g/cm2
-212
-[15]
-
-Extrapolation (Fill in the gaps)
+### Extrapolation (Fill in the gaps)
 One important metric that we were unable to identify from the literature was the energy consumption of the earthworm during motion. This is perhaps due to the fact that most of the metrics (especially) are dependent on the mass of the earthworm. Below, we present math models of some extra metrics using some of the details in Table 1.
 
 Kinetic Energy
