@@ -93,7 +93,7 @@ _Table 1 Information on Common Earthworm_
 One important metric that we were unable to identify from the literature was the energy consumption of the earthworm during motion. This is perhaps due to the fact that most of the metrics (especially) are dependent on the mass of the earthworm. Below, we present math models of some extra metrics using some of the details in Table 1.
 
 #### Kinetic Energy
-$$ x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} $$
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 The kinetic energy of the earthworm can be calculated by using classical mechanics. It refers to the energy expended or required by an object to move and is dependent on the mass and velocity of the object. The formula is given as 12mv2, where m is the mass, and v is the velocity.
 Using the average velocities [14] and body masses [13] of the earthworm, the kinetic energy ranges from 2.4×10-11 J - 1.78×10-6 J.
 Ground Reaction Force
