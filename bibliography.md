@@ -19,4 +19,4 @@ title: Bibliography
 [13]	K. J. Quillin, “Ontogenetic scaling of burrowing forces in the earthworm Lumbricus terrestris,” J. Exp. Biol., vol. 203, no. 18, pp. 2757–2770, 2000. \
 [14]	Jim, “Random Worm Facts,” Uncle Jim’s Worm Farm. [Online]. Available: https://unclejimswormfarm.com/random-worm-facts/. \
 [15]	L. T. L and B. Y. M. K. Seymour, “Locomotion and Coelomic Pressure in Lumbricus Terrestris L,” J. Exp. Biol., vol. 51, no. 1, pp. 47–58, 1969. \
-[16]	R. Liu and Y. Yao, “A novel serial–parallel hybrid worm-like robot with multi-mode undulatory locomotion,” Mech. Mach. Theory, vol. 137, pp. 404–431, 2019. \
+[16]	R. Liu and Y. Yao, “A novel serial–parallel hybrid worm-like robot with multi-mode undulatory locomotion,” Mech. Mach. Theory, vol. 137, pp. 404–431, 2019. 
