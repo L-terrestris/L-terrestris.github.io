@@ -1,6 +1,6 @@
-Here's a simple footnote,([^1]) and here's a longer one.[^bignote]
+Here's a simple footnote,<sup>[1](#myfootnote1)</sup>
 
-[^1]: This is the first footnote.
+<a name="myfootnote1">1</a>: Footnote content goes here
 
 [^bignote]: Here's one with multiple paragraphs and code.
 
