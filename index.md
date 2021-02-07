@@ -30,3 +30,76 @@ gjansah@asu.edu
 
 
 ## [Bibliography](/bibliography)
+## Responsive "Meet The Team" Section
+
+Resize the browser window to see the effect.
+
+<div class="row">
+
+<div class="column">
+
+<div class="card">![Jane](/w3images/team1.jpg)
+
+<div class="container">
+
+## Jane Doe
+
+CEO & Founder
+
+Some text that describes me lorem ipsum ipsum lorem.
+
+example@example.com
+
+<button class="button">Contact</button>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="column">
+
+<div class="card">![Mike](/w3images/team2.jpg)
+
+<div class="container">
+
+## Mike Ross
+
+Art Director
+
+Some text that describes me lorem ipsum ipsum lorem.
+
+example@example.com
+
+<button class="button">Contact</button>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="column">
+
+<div class="card">![John](/w3images/team3.jpg)
+
+<div class="container">
+
+## John Doe
+
+Designer
+
+Some text that describes me lorem ipsum ipsum lorem.
+
+example@example.com
+
+<button class="button">Contact</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
