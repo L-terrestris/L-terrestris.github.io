@@ -8,7 +8,7 @@ title: Develop a research question
 [Assignment Instructions](https://egr557.github.io/assignments/develop-a-research-question.html)
 
 ## Team Response
->Content
+>**Content**\
 Introduction\
 Tractability\
 Novelty\
@@ -17,7 +17,7 @@ Open-Ended\
 Modular\
 Team Fit\
 Topic Fit\
-References\
+References
 
 Introduction
 Team 5 was given the general topic of “Navigating Tight Spaces with Foldable Robotics” and was tasked with researching a more specific question through a semester-long course. After some initial research and consideration of criteria that have to be met, the team has decided to answer the following question:
