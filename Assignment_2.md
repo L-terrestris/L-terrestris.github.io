@@ -28,7 +28,7 @@ title: Assignment 2
 ### Candidate Organism for Bio Inspiration
 Team 5 sought bio-inspiration from the biomechanics of the Lumbricus Terrestris, which is referred to as the Common Earthworm Fig 1. [1] The common earthworm poses a hydroskeleton which enables locomotion by peristalsis.<sup id="a1">[1](#f1)</sup>
 
-![Earthworm](https://lh5.googleusercontent.com/EGbR_fOccdTIwtyKJFDX80xU9FSHptXTRaxh9FZladkoiyd0DQluqMI7ZD8wlxIKgoxb6JlxeLWQvJEdAzAaaK7mey6_rUoSwwm4Goc "Anatomy of Earthworm")\
+![Earthworm](https://lh4.googleusercontent.com/-wfF9hMts6Oyxen3DTE-7IPs9ZZ1B4B_Mzl01CAP9_uFhQuojzBI0G_5m48bSrmW3KNdjqfFsNTQlgLh00tTcRJaL1XEbJFTNVwrIq8 "Anatomy of Earthworm")\
 Fig 1 Anatomy of Earthworm [2]
 
 One of our initial tasks was to find multiple sources that are closely related to our area of research to obtain physical quantities and develop initial specifications for our robot. The team found a number of relevant articles [3]–[7] (along with several websites), three of which will be especially valuable to the project and will be described in greater detail below.
@@ -131,13 +131,13 @@ _Find a motor and battery that can supply the mechanical power needs obtained ab
 With the axial forces stated in the first question, it can be seen that there is not a need for a significantly strong motor to imitate the axial burrow force of a worm, even when scaled by 10. A simple hobby servo motor such as a 2210 Adafruit servo motor more than doubles the maximum required force. Running at 4.8 V the servo motor outputs 56.4 mNm, and the maximum output force of an earthworm scaled up by a factor of 10 is roughly 22.14 mNm. As previously stated, the 2210 Adafruit motor runs off of 4.8 V, so a simple 4.8 V battery could be used. Considering the weight-to-power ratio of the earthworm to the power of the servo, the servo is far more energy dense.
 
 ### Plots and Figures
-![Fig 4](https://lh4.googleusercontent.com/att93_wA-VugCtzS5dKVJRA8wkKzqRGjQ3EHCrorcEgRyN6eEiIZjgq6kE264udEdDDeTPlOmANrx47gq65CfyWqwZlIP0TppPwJBgoF)\
+![Fig 4](https://lh3.googleusercontent.com/t901yA3DSMLANHOnE7xUAGYa2w8oDq0k3Tdgxv2L5Wvl6PiNSqDm0hCFHmTr8B5qD42pc16AuXhA05TEJsdF747316GOzgDkXXwBw4-j)\
 Fig 4 [16]
 
 ![Fig 5](https://lh4.googleusercontent.com/VrOExQ6Nfn44AfNRTXf0jj6VzFaK4gDVtkdAAqaU3JIoI_frg-N7NJ0rpzEqmvLfXzAxvnf9iTpL5FxGHwY0oVaBmusPgXqtjdgsD8FgQXF1atMP1Y1aW3UsA3s39WkE3338uow)\
 Fig 5 [8]
 
-![Fig6 ](https://lh6.googleusercontent.com/sb-UO2t1oxDp_qEcR8-lJ3pU_4KukTwuCCVaZZH_MfdEKi9jv2apPMU9-dYaEEoRKxzM_jbgvOv5yuWBrPUGQ4ggJLu3zP37Z85N2IHl)\
+![Fig6 ](https://lh3.googleusercontent.com/FJPhRUl6J5m8hrZ_Br78lWvjfw-0lEUHFO5Oe34Idj43YN67TxNuXnsvDVoTKMAqtOHOU4NnKOvndiVHOrepnnPs2PHRoH3qmHZVwf2J)\
 Fig 6 [5]
 
 ![Fig 7](https://lh5.googleusercontent.com/KP__uzGNw6G6JOP2JlZFlGQ7s2iXtvjTlGXB_Xv1gXDmqMGKjo_ScmIQ42YORDjdYmSyRCSXaKaO1QcsOGj-6yL5IEjTzZ4ket5P0KcpNJgLf9s94t9e_wDYXNULWoc5qwz1yVc)\
