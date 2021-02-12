@@ -137,7 +137,7 @@ Fig 4 [16]
 ![Fig 5](https://lh4.googleusercontent.com/VrOExQ6Nfn44AfNRTXf0jj6VzFaK4gDVtkdAAqaU3JIoI_frg-N7NJ0rpzEqmvLfXzAxvnf9iTpL5FxGHwY0oVaBmusPgXqtjdgsD8FgQXF1atMP1Y1aW3UsA3s39WkE3338uow)\
 Fig 5 [8]
 
-![Fig6 ](fig6.png)\
+![Fig6 ](Images/fig6.png)\
 Fig 6 [5]
 
 ![Fig 7](https://lh5.googleusercontent.com/KP__uzGNw6G6JOP2JlZFlGQ7s2iXtvjTlGXB_Xv1gXDmqMGKjo_ScmIQ42YORDjdYmSyRCSXaKaO1QcsOGj-6yL5IEjTzZ4ket5P0KcpNJgLf9s94t9e_wDYXNULWoc5qwz1yVc)\
