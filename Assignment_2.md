@@ -131,7 +131,7 @@ _Find a motor and battery that can supply the mechanical power needs obtained ab
 With the axial forces stated in the first question, it can be seen that there is not a need for a significantly strong motor to imitate the axial burrow force of a worm, even when scaled by 10. A simple hobby servo motor such as a 2210 Adafruit servo motor more than doubles the maximum required force. Running at 4.8 V the servo motor outputs 56.4 mNm, and the maximum output force of an earthworm scaled up by a factor of 10 is roughly 22.14 mNm. As previously stated, the 2210 Adafruit motor runs off of 4.8 V, so a simple 4.8 V battery could be used. Considering the weight-to-power ratio of the earthworm to the power of the servo, the servo is far more energy dense.
 
 ### Plots and Figures
-![Fig 4](Images/fig4)\
+![Fig 4](Images/fig4.png)\
 Fig 4 [16]
 
 ![Fig 5](https://lh4.googleusercontent.com/VrOExQ6Nfn44AfNRTXf0jj6VzFaK4gDVtkdAAqaU3JIoI_frg-N7NJ0rpzEqmvLfXzAxvnf9iTpL5FxGHwY0oVaBmusPgXqtjdgsD8FgQXF1atMP1Y1aW3UsA3s39WkE3338uow)\
