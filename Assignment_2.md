@@ -46,7 +46,7 @@ The five most important papers based on bioinspired worm robots are seen in [3],
 Perhaps the most influential paper we found is the Softworm paper [3] The design effectively uses a deformable mesh to create peristaltic motion. A single drive motor creates a wave, springs to return to normal positions, and meshed cables all work together to create a robot capable of moving through tight spaces. Its unique design allows it to have minimal contact with a surface and produce little slip in both a forward and backward direction. The paper contains valuable mathematical information we could interpolate into our design. To summarize, it has simulation results, kinematics, frictional forces, important parameters, controllers (sine waves), and derivations and use of equations of motion. All the listed results and methods could be referenced when attempting our own calculations. 
 Origami and paper folding is a main component of the challenges we are faced with this semester in EGR557. [10] has extensive figures and descriptions of origami inspired techniques to create peristaltic motion. It mentions that the 2D fabrication method (through folding paper) is also a rapid prototyping method, one that would be central to this class. The paper includes a lot of useful information outside of origami folds and folding methods. However, they do list multiple folded configurations and iterations to explore. Other relevant information comes from their description of actuator selection, peristaltic motion (using a figure similar to Fig 2), control parameters, and robot speed based on friction. For origami inspiration and 2D manufacturing methods, this paper provides a strong starting point.
 
-![two mass one spring worm](https://lh4.googleusercontent.com/UZqm_uYO9xu-EHJ9IiZT_lF9-QqBLkO_NWy69_biygbgUJShXYN7YuvQGzNVE-5lCWY00BS3w6qc1kGs725eHgYrfRwRD5hdR87QtsW0Oizap4htalQ8tzfmN9yp3UBC57ssHOk "two mass one spring worm")\
+![two mass one spring worm](Images/two-mass-one-spring.png)\
 Fig 2 A two mass one spring worm [12]
 
 In [11], we see the development of the SAW robot, meaning a single actuator wave like robot. This design is the first robot mentioned not inspired by worms or their peristaltic movement but uses the sine wave. It was mentioned in [12] that modelling a worm's motion can be done using a traveling sine wave, emphasizing one important point from the SAW paper. The main reason that this paper is important is that the robot was made with very cheap parts and a single actuator (a motor). The links are driven by a helical attachment to the end of the motor allowing the robot to travel up and down narrow tubes, and across a variety of level and rough surfaces. Experiments to increase the robot’s speed and miniaturize it also provide useful directions for our experiments. Overall, this paper provides a reference on how to utilize a traveling sine wave to create cheap, single actuated robots that can travel in tight spaces.
@@ -134,16 +134,16 @@ With the axial forces stated in the first question, it can be seen that there is
 ![Fig 4](Images/fig4.png)\
 Fig 4 [16]
 
-![Fig 5](https://lh4.googleusercontent.com/VrOExQ6Nfn44AfNRTXf0jj6VzFaK4gDVtkdAAqaU3JIoI_frg-N7NJ0rpzEqmvLfXzAxvnf9iTpL5FxGHwY0oVaBmusPgXqtjdgsD8FgQXF1atMP1Y1aW3UsA3s39WkE3338uow)\
+![Fig 5](Images/fig5.png)\
 Fig 5 [8]
 
 ![Fig6 ](Images/fig6.png)\
 Fig 6 [5]
 
-![Fig 7](https://lh5.googleusercontent.com/KP__uzGNw6G6JOP2JlZFlGQ7s2iXtvjTlGXB_Xv1gXDmqMGKjo_ScmIQ42YORDjdYmSyRCSXaKaO1QcsOGj-6yL5IEjTzZ4ket5P0KcpNJgLf9s94t9e_wDYXNULWoc5qwz1yVc)\
+![Fig 7](Images/fig7.png)\
 Fig 7 [6]
 
-![Fig 8](https://lh5.googleusercontent.com/Jc9UsUDMjCIH6TqovGYV5HmO10VFlPiBV-rDt2wmT-NJtq014jVOBlK8rFxQfNeMVb8Wre4XUr01Il0NA5NyxepR8ec-HPqwzcfFirDMf764xAVO5ss-i3t4QUbre1ARkk4zorY)\
+![Fig 8](Images/fig8.png)\
 Fig 8 [6]
 
 ### References
