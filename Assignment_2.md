@@ -112,7 +112,7 @@ Fig 2 is the last visualization of worm locomotion presented from [12], as it is
 The final figures (Fig 7 and Fig 8) [6] represent the pressure, stresses, and areas of worms. Fig 7 displays a segment of the worm, showing that it is composed of an outer layer in tension (muscles, epidermis), and the internal pressure that accompany it. It also displays the equations for different stress types on the worm body. Fig 8 then takes the internal pressures of a worm and graphs pressure vs time representing peristalsis and resting states. The pressure curve from peristalsis could be approximated by a square or sine wave.
 
 ### Simple engineering drawing
-![Fig 3](https://lh3.googleusercontent.com/bLWtxiCGitD-boICqNUcF3WQU2buroYRfpInnnhcsWoMgCf5Mep92LyYJE1qhuCFRCIweg6dndPztaOfF5mF02HdhVyoFyLX2YIJPjm0a2UCNto9cm5mmdukibS90w)\
+![Fig 3](Images/engineeringdrawing.png)\
 Fig 3 Proposed Movement Mechanism
 
 Fig 3 depicts the first simple drawing of a proposed mechanism. Here it is four sarrus linkages, with springs between the translational motion plates, and a cable connected to the main actuator. The design takes heavy inspiration from the papers mentioned in the ‘Bio-Inspired Sources’ section.  Our goal for the system is to create the mechanism using low cost parts and decide on advancing to higher cost parts depending on the course. Purposely, we left some materials and methods vague. We want to explore the use of low-cost materials, the number of segments, and the type of actuator. Common actuator types for low cost materials would be similar to a windup toy, with low cost springs being rubber band.\
