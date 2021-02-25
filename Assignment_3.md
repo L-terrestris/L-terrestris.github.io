@@ -1,6 +1,6 @@
 
 ---
-title: Assignment 3
+title: System Kinematics
 ---
 
 # System Kinematics
