@@ -1,5 +1,5 @@
 ---
-title: Assignment 2
+title: Biomechanics Background and Initial Specifications
 ---
 
 # Biomechanics Background and Initial Specifications
