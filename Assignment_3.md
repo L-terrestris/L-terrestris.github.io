@@ -1,7 +1,13 @@
+
 ---
-title: System Kinematics
+title: Assignment 3
 ---
 
+# System Kinematics
+## Description 
+[Assignment Instructions](https://egr557.github.io/assignments/system-kinematics.html)
+
+## Team Response
 Team 5
 
 
@@ -1303,7 +1309,7 @@ As mentioned above, when solving the constraints and creating the mechanism, we 
 
 ## Plot (#5)
 
-![picture](https://drive.google.com/uc?export=view&id=1GKrT557wQNKp3ZWGv9lyS1ks0-B5QCnt)
+![picture](Images3/middlegait.PNG)
 
 ## Force Vector Estimates (#6)
 
