@@ -23,9 +23,9 @@ jsindorf@asu.edu
 
 ### System Kinematics
 
-![picture](https://drive.google.com/uc?export=view&id=13gdjIlxjZWm9enL_Ot7w5sUGL7N549lB)
+![picture](Images3/systkinematics1.PNG)
 
-![picture](https://drive.google.com/uc?export=view&id=1MoV_SsdtSmgzAxK13p9E8fM2waOImSVn)
+![picture](Images3/systkinematics2.PNG)
 
 # Paper Model 
 
@@ -33,7 +33,7 @@ The following paper model was designed using the desired lengths as seen in the 
 
 To simplify the kinematics, only one sarrus linkage is considered, on a 2D plane. 
 
-![picture](https://drive.google.com/uc?export=view&id=19D6zLbf_V9X07mIiaIu9BSjJmoZQC_L8)
+![picture](Images3/papermodel.PNG)
 
 #Kinematic Model
 
