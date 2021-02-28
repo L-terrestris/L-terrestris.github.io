@@ -18,7 +18,7 @@ Our robot seeks to utilize the least number of actuators possible to complete th
 
 1. [Develop a Research Question](/Question)
 2. [Biomechanics Background and Initial Specifications](/Biomechanics)
-3. [System Kinematics](/Kinematics)
+3. [System Kinematics](Kinematics/Kinematics)
 4. [System Dynamics](Dynamics/Dynamics)
 
 ## Project Presentations
