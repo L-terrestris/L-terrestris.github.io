@@ -78,7 +78,7 @@ pynamics.set_system(__name__,system)
 
 
 
-![](https://drive.google.com/uc?export=view&id=1H8GI8lkvuWy7_2MEZjq6CaDyLAzc0f6J)
+![](systemkinematicsv2.PNG)
 
 
 
