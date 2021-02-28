@@ -28,7 +28,7 @@ title: Biomechanics Background and Initial Specifications
 ### Candidate Organism for Bio Inspiration
 Team 5 sought bio-inspiration from the biomechanics of the Lumbricus Terrestris, which is referred to as the Common Earthworm Fig 1. [1] The common earthworm poses a hydroskeleton which enables locomotion by peristalsis.<sup id="a1">[1](#f1)</sup>
 
-![Earthworm](Images/earthworm.jpg)\
+![Earthworm](earthworm.jpg)\
 Fig 1 Anatomy of Earthworm [2]
 
 One of our initial tasks was to find multiple sources that are closely related to our area of research to obtain physical quantities and develop initial specifications for our robot. The team found a number of relevant articles [3]–[7] (along with several websites), three of which will be especially valuable to the project and will be described in greater detail below.
@@ -46,7 +46,7 @@ The five most important papers based on bioinspired worm robots are seen in [3],
 Perhaps the most influential paper we found is the Softworm paper [3] The design effectively uses a deformable mesh to create peristaltic motion. A single drive motor creates a wave, springs to return to normal positions, and meshed cables all work together to create a robot capable of moving through tight spaces. Its unique design allows it to have minimal contact with a surface and produce little slip in both a forward and backward direction. The paper contains valuable mathematical information we could interpolate into our design. To summarize, it has simulation results, kinematics, frictional forces, important parameters, controllers (sine waves), and derivations and use of equations of motion. All the listed results and methods could be referenced when attempting our own calculations. 
 Origami and paper folding is a main component of the challenges we are faced with this semester in EGR557. [10] has extensive figures and descriptions of origami inspired techniques to create peristaltic motion. It mentions that the 2D fabrication method (through folding paper) is also a rapid prototyping method, one that would be central to this class. The paper includes a lot of useful information outside of origami folds and folding methods. However, they do list multiple folded configurations and iterations to explore. Other relevant information comes from their description of actuator selection, peristaltic motion (using a figure similar to Fig 2), control parameters, and robot speed based on friction. For origami inspiration and 2D manufacturing methods, this paper provides a strong starting point.
 
-![two mass one spring worm](Images/two-mass-one-spring.png)\
+![two mass one spring worm](two-mass-one-spring.png)\
 Fig 2 A two mass one spring worm [12]
 
 In [11], we see the development of the SAW robot, meaning a single actuator wave like robot. This design is the first robot mentioned not inspired by worms or their peristaltic movement but uses the sine wave. It was mentioned in [12] that modelling a worm's motion can be done using a traveling sine wave, emphasizing one important point from the SAW paper. The main reason that this paper is important is that the robot was made with very cheap parts and a single actuator (a motor). The links are driven by a helical attachment to the end of the motor allowing the robot to travel up and down narrow tubes, and across a variety of level and rough surfaces. Experiments to increase the robot’s speed and miniaturize it also provide useful directions for our experiments. Overall, this paper provides a reference on how to utilize a traveling sine wave to create cheap, single actuated robots that can travel in tight spaces.
@@ -112,7 +112,7 @@ Fig 2 is the last visualization of worm locomotion presented from [12], as it is
 The final figures (Fig 7 and Fig 8) [6] represent the pressure, stresses, and areas of worms. Fig 7 displays a segment of the worm, showing that it is composed of an outer layer in tension (muscles, epidermis), and the internal pressure that accompany it. It also displays the equations for different stress types on the worm body. Fig 8 then takes the internal pressures of a worm and graphs pressure vs time representing peristalsis and resting states. The pressure curve from peristalsis could be approximated by a square or sine wave.
 
 ### Simple engineering drawing
-![Fig 3](Images/engineering-drawing.PNG)\
+![Fig 3](engineering-drawing.PNG)\
 Fig 3 Proposed Movement Mechanism
 
 Fig 3 depicts the first simple drawing of a proposed mechanism. Here it is four sarrus linkages, with springs between the translational motion plates, and a cable connected to the main actuator. The design takes heavy inspiration from the papers mentioned in the ‘Bio-Inspired Sources’ section.  Our goal for the system is to create the mechanism using low cost parts and decide on advancing to higher cost parts depending on the course. Purposely, we left some materials and methods vague. We want to explore the use of low-cost materials, the number of segments, and the type of actuator. Common actuator types for low cost materials would be similar to a windup toy, with low cost springs being rubber band.\
@@ -131,19 +131,19 @@ _Find a motor and battery that can supply the mechanical power needs obtained ab
 With the axial forces stated in the first question, it can be seen that there is not a need for a significantly strong motor to imitate the axial burrow force of a worm, even when scaled by 10. A simple hobby servo motor such as a 2210 Adafruit servo motor more than doubles the maximum required force. Running at 4.8 V the servo motor outputs 56.4 mNm, and the maximum output force of an earthworm scaled up by a factor of 10 is roughly 22.14 mNm. As previously stated, the 2210 Adafruit motor runs off of 4.8 V, so a simple 4.8 V battery could be used. Considering the weight-to-power ratio of the earthworm to the power of the servo, the servo is far more energy dense.
 
 ### Plots and Figures
-![Fig 4](Images/fig4.png)\
+![Fig 4](fig4.png)\
 Fig 4 [16]
 
-![Fig 5](Images/fig5.png)\
+![Fig 5](fig5.png)\
 Fig 5 [8]
 
-![Fig6 ](Images/fig6.png)\
+![Fig6 ](fig6.png)\
 Fig 6 [5]
 
-![Fig 7](Images/fig7.png)\
+![Fig 7](fig7.png)\
 Fig 7 [6]
 
-![Fig 8](Images/fig8.png)\
+![Fig 8](fig8.png)\
 Fig 8 [6]
 
 ### References
