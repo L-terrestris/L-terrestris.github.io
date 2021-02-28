@@ -1,3 +1,14 @@
+---
+title: System Dynamics
+---
+
+# System Dynamics
+
+## Description
+[Assignment Instructions](https://egr557.github.io/assignments/system-dynamics-I.html)
+
+## Team Response
+
 ```python
 %matplotlib inline
 ```
