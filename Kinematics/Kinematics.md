@@ -28,9 +28,9 @@ jsindorf@asu.edu
 
 ### System Kinematics
 
-![picture](Images3/systkinematics1.PNG)
+![picture](systkinematics1.PNG)
 
-![picture](Images3/systkinematics2.PNG)
+![picture](systkinematics2.PNG)
 
 # Paper Model 
 
@@ -38,7 +38,7 @@ The following paper model was designed using the desired lengths as seen in the 
 
 To simplify the kinematics, only one sarrus linkage is considered, on a 2D plane. 
 
-![picture](Images3/papermodel.PNG)
+![picture](papermodel.PNG)
 
 #Kinematic Model
 
@@ -371,7 +371,7 @@ points.plot_time()
 
 
     
-![png](Images3/output_42_2.png)
+![png](output_42_2.png)
     
 
 
@@ -1308,7 +1308,7 @@ As mentioned above, when solving the constraints and creating the mechanism, we 
 
 ## Plot (#5)
 
-![picture](Images3/middlegait.PNG)
+![picture](middlegait.PNG)
 
 ## Force Vector Estimates (#6)
 
