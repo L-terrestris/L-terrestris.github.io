@@ -10,8 +10,6 @@ title: System Kinematics
 
 Team 5
 
-
-
 Gilgal Ansah
 gjansah@asu.edu
 
@@ -39,7 +37,7 @@ To simplify the kinematics, only one sarrus linkage is considered, on a 2D plane
 
 ![picture](papermodel.PNG)
 
-#Kinematic Model
+## Kinematic Model
 
 Code of the kinematic model (see HW step 3)
 
@@ -120,7 +118,6 @@ la = Constant(0.0254,'la',system)
 lb = Constant(0.0254,'lb',system)
 lc = Constant(0.0254,'lc',system)
 ld = Constant(0.0254,'ld',system)
-
 ```
 
 Our system will be a sideways sarrus mechanism (4 combined, one modeled here) that acheives translational motion in the x direction. The bottom link of the mechanism, depicted as pNA is what touches the ground and attaches to the newtonian frame. 
@@ -137,7 +134,6 @@ qB,qB_d,qB_dd = Differentiable('qB',system) #from AB
 #bottom 2bar
 qC,qC_d,qC_dd = Differentiable('qC',system)
 qD,qD_d,qD_dd = Differentiable('qD',system) #from DE
-
 ```
 
 The following guess the initial values of the mechanism. Here we want to create it in a point of interesting motion, so our guesses are based on the mechanism in a halfway point. That being halfway between either extenstion or contraction. Essentially this means that the two flat plates that translate in the x direction are half way to one another giving us about a 90 degree angle between the top and bottom links. 
@@ -175,7 +171,6 @@ A = Frame('A')
 B = Frame('B')
 C = Frame('C')
 D = Frame('D')
-
 ```
 
 
@@ -190,10 +185,6 @@ A.rotate_fixed_axis_directed(N,[0,0,1],qA,system) # A reference frame rotates ab
 B.rotate_fixed_axis_directed(A,[0,0,1],qB,system)
 D.rotate_fixed_axis_directed(N,[0,0,1],qD,system)
 C.rotate_fixed_axis_directed(D,[0,0,1],qC,system)
-
-
-
-
 ```
 
 Here we define the necessary points to create the mechanism. 
@@ -212,7 +203,6 @@ pBtip = pB + lb*B.x
 pD = 0*N.x + h*N.y + 0*N.z
 pC = pD + ld*D.x
 pCtip = pC + lc*C.x
-
 ```
 
 
@@ -246,10 +236,6 @@ The following vectors are the ones we need to use for constraints. eq_vector rep
 #Define the closed loop kinematics of the four bar linkage.
 eq_vector = pB - pC
 eq_vector1 = pCtip - pBtip
-
-
-
-
 ```
 
 The actual constraint equations (5 total for 5 unknowns) are below
@@ -1845,12 +1831,6 @@ vout
     la*qA_d*A.y + lb*B.y*(qA_d + 1.0*qA_d*(-2.0*l0*la*cos(qA + qC) + 2.0*l0*la*cos(-qA + qC + 2*qD) - 2.0*l0*lb*cos(qA + qB - qC) + 2.0*l0*lb*cos(qA + qB - qC - 2*qD) + 1.0*la**2*sin(qC) - 1.0*la**2*sin(2*qA + qC) + 1.0*la**2*sin(qC + 2*qD) - 1.0*la**2*sin(-2*qA + qC + 2*qD) - 1.0*la*lb*sin(2*qA + qB - qC) - 1.0*la*lb*sin(2*qA + qB + qC) + 1.0*la*lb*sin(-qB + qC + 2*qD) + 1.0*la*lb*sin(qB + qC + 2*qD) + 2.0*la*lb*sin(2*qA + qB - qC - 2*qD) - 2.0*la*lc*sin(qA - qD) - 1.0*la*lc*sin(-qA + 2*qC + 3*qD) + 1.0*la*lc*sin(qA + 2*qC + qD) + 1.0*la*ld*sin(-qA + qC + qD) - 1.0*la*ld*sin(-qA + qC + 3*qD) - 1.0*la*ld*sin(qA + qC - qD) + 1.0*la*ld*sin(qA + qC + qD) - 1.0*lb**2*sin(qC) + 1.0*lb**2*sin(qC + 2*qD) - 1.0*lb**2*sin(2*qA + 2*qB - qC) + 1.0*lb**2*sin(2*qA + 2*qB - qC - 2*qD) - 1.0*lb*lc*sin(qA + qB - qD) + 1.0*lb*lc*sin(qA + qB + qD) + 1.0*lb*lc*sin(qA + qB - 2*qC - 3*qD) - 1.0*lb*lc*sin(qA + qB - 2*qC - qD) + 1.0*lb*ld*sin(qA + qB - qC - 3*qD) - 2.0*lb*ld*sin(qA + qB - qC - qD) + 1.0*lb*ld*sin(qA + qB - qC + qD))/(lb*(2*l0*cos(qA + qB - qC) - 2*l0*cos(qA + qB - qC - 2*qD) - la*sin(qB - qC) + la*sin(2*qA + qB - qC) - la*sin(-qB + qC + 2*qD) - la*sin(2*qA + qB - qC - 2*qD) + lb*sin(qC) - lb*sin(qC + 2*qD) + lb*sin(2*qA + 2*qB - qC) - lb*sin(2*qA + 2*qB - qC - 2*qD) + lc*sin(qA + qB - qD) - lc*sin(qA + qB + qD) - lc*sin(qA + qB - 2*qC - 3*qD) + lc*sin(qA + qB - 2*qC - qD) - ld*sin(qA + qB - qC - 3*qD) + 2*ld*sin(qA + qB - qC - qD) - ld*sin(qA + qB - qC + qD))))
 
 
-
-
-```python
-
-```
-
 ## Middle of Typical Gait (#4)
 
 As mentioned above, when solving the constraints and creating the mechanism, we initially made it into a position of interest. That position being the midway point between full extension and full compression. That point in the motion is where all the motion occurs as the system occilates between compression and decompression states to generate its peristaltic motion. 
@@ -1884,10 +1864,6 @@ Fround Reaction Force (N)
 
 1.07×10-1 N
 
-
-```python
-
-```
 
 # Force/Torque at Input (#7)
 
