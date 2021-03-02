@@ -25,13 +25,13 @@ Jacob Sindorf
 jsindorf@asu.edu
 
 
-# Device Figure
+## Device Figure
 
 ### System Kinematics
 
 ![](https://drive.google.com/uc?export=view&id=1H8GI8lkvuWy7_2MEZjq6CaDyLAzc0f6J)
 
-# Paper Model 
+## Paper Model 
 
 The following paper model was designed using the desired lengths as seen in the systems kinematics figure. It takes 4 sarrus linkages, all with four joint arms of equal length, to allow for translational movement in one direction. 
 
@@ -1903,29 +1903,6 @@ F_in = J.T.dot(F_ee)
 F_in
 ```
 
-
-    ---------------------------------------------------------------------------
-
-    ShapeError                                Traceback (most recent call last)
-
-    <ipython-input-39-d44643b9de10> in <module>()
-          1 F_ee = numpy.array([-0.5, 0,0,0,0]).T # Arbitrary force vector on end effector; need to figure out how to use the 5x1 Jacobian
-    ----> 2 F_in = J.T.dot(F_ee)
-          3 F_in
-    
-
-    /usr/local/lib/python3.7/dist-packages/sympy/matrices/matrices.py in dot(self, b, hermitian, conjugate_convention)
-       1342                     raise ShapeError(
-       1343                         "Dimensions incorrect for dot product: %s, %s" % (
-    -> 1344                             self.shape, len(b)))
-       1345                 return self.dot(Matrix(b))
-       1346             else:
-    
-
-    ShapeError: Dimensions incorrect for dot product: (1, 3), 5
-
-
-
 ```python
 pout
 ```
@@ -1967,29 +1944,20 @@ power
 
 ## Discussion
 
-1. How many degrees of freedom does your device have? How many motors? If the answer is not the same, what determines the state of the remaining degrees of freedom? How did you arrive at that number?
+1.How many degrees of freedom does your device have? How many motors? If the answer is not the same, what determines the state of the remaining degrees of freedom? How did you arrive at that number?
 
 Our system has one degree of freedom and we will be driving our system with the strength of one motor. The links will be constrained in such a way that the output will translate in the x direction as we use a sarrus linkage mechanism. Our device will eventually have 4 linked sarrus mechanisms to produce peristaltic motion in the x direction. This would consist of offsetting each sarrus at specific times (compression or expansion) and using one driving motor, a system of offset cables can act as a new motor per sarrus. 
 
 
-
-2. If your mechanism has more than one degree of freedom, please describe how those multiple degrees of freedom will work togehter to create a locomotory gait or useful motion. What is your plan for synchonizing, especially if passive energy storage?
+2.If your mechanism has more than one degree of freedom, please describe how those multiple degrees of freedom will work togehter to create a locomotory gait or useful motion. What is your plan for synchonizing, especially if passive energy storage?
 
 As previously stated, our system has one degree of freedom, in x direction. As the x distance between links 1 and 4 decreases, the y distance between point A and Ctip/Dtip will increase, thus creating motion. The frictional force with the ground prevents back slip in the link giving one directional motion. When combined with 3 other sarrus mechanisms the device can offset the contraction and extension of each to generate wave like motion called peristaltic motion. Using one input motor, a series of cables can be offset so that they pull on the flat plate of each sarrus mechanism separately, contracting it. A spring could then help extend it. By contracting the first link, then the second, third and fourth, then extending in the same order, it generates walking. 
 
 
-3. How did you estimate your expected end-effector forces
+3.How did you estimate your expected end-effector forces
 
 Our robot kinematics was modeled with bio-inspiration from the common earthworm. Based on previously conducted research on the biomechanics of the earthworm, we used the maximum mass of the worm as a basis of calculating the ground reaction force that our end effector will experience. Ideally, the end effector will experience a force unique to the specific segment, however using the maximum mass provides enough room for errors and overloading of the end effector.
 
-
-
-4. How did you estimate your expected end-effector speeds
+4.How did you estimate your expected end-effector speeds
 
 The equation for the velocity of the end effector was found symbolically through the python simulation above. For the estimated velocity values, we used values determined by the biomechanics assignment for worm speed. Geometric relations for angular speed helped us determine the output velocity given a specific input. 
-
-
-
-```python
-
-```
