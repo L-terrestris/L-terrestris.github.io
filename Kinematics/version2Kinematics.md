@@ -1,4 +1,12 @@
-#System Kinematics
+---
+title: System Kinematics
+---
+
+# System Kinematics
+## Description 
+[Assignment Instructions](https://egr557.github.io/assignments/system-kinematics.html)
+
+## Team Response
 
 Team 5
 
@@ -22,6 +30,14 @@ jsindorf@asu.edu
 ### System Kinematics
 
 ![](https://drive.google.com/uc?export=view&id=1H8GI8lkvuWy7_2MEZjq6CaDyLAzc0f6J)
+
+# Paper Model 
+
+The following paper model was designed using the desired lengths as seen in the systems kinematics figure. It takes 4 sarrus linkages, all with four joint arms of equal length, to allow for translational movement in one direction. 
+
+To simplify the kinematics, only one sarrus linkage is considered, on a 2D plane. 
+
+![picture](papermodel.PNG)
 
 #Kinematic Model
 
