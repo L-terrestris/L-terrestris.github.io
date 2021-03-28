@@ -21,10 +21,10 @@ Follow [this link](/OldStuff) for details on the previous work conducted on navi
 
 ## Assignments
 
-1. [Develop a Research Question](Question/Question)
-2. [Biomechanics Background and Initial Specifications](Biomechanics/Biomechanics)
-3. [System Kinematics](Kinematics/Kinematics)
-4. [System Dynamics](Dynamics/Dynamics)
+1. [Develop a Research Question](Question/QuestionNew)
+2. [Biomechanics Background and Initial Specifications](Biomechanics/BiomechanicsNew)
+3. [System Kinematics](Kinematics/KinematicsNew)
+4. [System Dynamics](Dynamics/DynamicsNew)
 
 ## Project Presentations
 1. [Presentation 1](Presentations/Presentation_1)
