@@ -2,7 +2,7 @@
 title: System Dynamics I
 ---
 
-# System Dynamics
+# System Dynamics I
 
 ## Description
 [Assignment Instructions](https://egr557.github.io/assignments/system-dynamics-I.html)
