@@ -8,7 +8,7 @@ title: Parameter Identification
 2. [Cantilever Experiment](CantileverBeam)
 3. [Prototype - Leg](SarrusLeg)
 4. [Prototype - Flexible Spine](Spine)
-
+5. [Motor Analysis](Motor)
 
 
 
