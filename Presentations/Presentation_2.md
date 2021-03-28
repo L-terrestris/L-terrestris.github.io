@@ -1,8 +1,8 @@
 ---
-title: Presentation 1
+title: Presentation 2
 ---
 
-# Presentation 1
+# Presentation 2
 
 ## Description
 [Assignment Instructions](https://egr557.github.io/assignments/presentation-II.html)
