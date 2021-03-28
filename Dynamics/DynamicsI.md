@@ -1,5 +1,5 @@
 ---
-title: System DynamicsnI
+title: System Dynamics I
 ---
 
 # System Dynamics
