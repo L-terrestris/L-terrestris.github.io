@@ -5,7 +5,8 @@ title: EGR 557 Team 5
 # Project Title : How can foldable techniques translate a small number of actuators into unique locomotion?
 
 ## Introduction
-The team's semester project begun around the general topic of _Navigating Tight Spaces with Foldable Robotics_. The team was tasked with researching a more specific question through a semester-long course and following the preliminary research, we settled on modelling a robot with bio-inspiration from the _Lumbricus Terrestris_ commonly known as the _Common Earthworm_.\
+The team's semester project begun around the general topic of _Navigating Tight Spaces with Foldable Robotics_.\
+The team was tasked with researching a more specific question through a semester-long course and following the preliminary research, we settled on modelling a robot with bio-inspiration from the _Lumbricus Terrestris_ commonly known as the _Common Earthworm_.\
 However, After half the semester, we had a major project change. We have shifted from tight space navigation to locomotion, and seek to answer the following question:
 
 “How can foldable techniques translate a small number of actuators into unique locomotion?”
