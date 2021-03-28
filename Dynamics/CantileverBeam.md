@@ -31,7 +31,7 @@ The images below show the different configuration setups used in the experiments
 ![pic](IMG_4121.JPG)
 <p style="text-align: center;">Unloaded</p>
 
-<img src="IMG_4122.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4122.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">100g</p>
 
 <img src="IMG_4123.jpg" alt="beams" width=500 height=500>
