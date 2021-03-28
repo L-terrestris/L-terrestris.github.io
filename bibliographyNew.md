@@ -30,3 +30,5 @@ https://cronodon.com/BioTech/Asteroids_hydraulics.html
 ## Flexible Spine Concept
 [1] Zarrouk Lab. "Miniature SAW robot presented at ICRA 2019," YouTube, July 5, 2020. [Video file]. Available: https://www.youtube.com/watch?v=WTOz0OyJhzM. [Accessed: Mar. 6, 2021].
 
+## Motor Analysis
+[1]"RF370CA-15370: Mabuchi Motor Company : 12 Volt DC Motor 170mA 4,840 RPM 25.3g-cm Torque : Electromechanical", Jameco.com, 2021. [Online]. Available: https://www.jameco.com/shop/ProductDisplay?catalogId=10001&langId=-1&storeId=10001&productId=238473. [Accessed: 07- Mar- 2021].
