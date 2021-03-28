@@ -12,10 +12,10 @@ Some of the preliminary sketches of the concept are shown below in figures 1 and
 The red and blue lines represent the overall shape of the mechanism at opposite stages of the motion, where adjacent sarrus linkages would be in different positions (expanded or contracted).
 
 
-![](flex1.PNG)
-Figure 1. Concept drawings of wave-like sarrus bot.
-![](flex2.PNG)
-Figure 2. Concept drawings of wave-like sarrus bot, cont.
+![](flex1.PNG)\
+Figure 1. Concept drawings of wave-like sarrus bot.\
+![](flex2.PNG)\
+Figure 2. Concept drawings of wave-like sarrus bot, cont.\
 
 The team theorized that this type of motion would function best in tight, tube-like spaces, in which the sarrus linkages would be able to properly push against the walls and manipulate the shape of the flexible spine. To test whether or not this motion would be interesting and feasible, a physical prototype would be needed.
 
@@ -24,9 +24,9 @@ Shown below in figure 3 is a rough prototype of the system made out of cardstock
 Each of the sarrus linkages was cut out from a template printed onto the cardstock and the joints were linked on the inside and outside with clear packaging tape.
 These were then spaced out and fastened to the cardstock spine with double-sided tape.
 
-![](pro1.jpg)
-Figure 3. Cardstock/tape prototype.
-![](pro2.jpg)
+![](pro1.jpg)\
+Figure 3. Cardstock/tape prototype.\
+![](pro2.jpg)\
 Figure 4. Prototype in cardboard “tube.”\
 
 The initial plan was to use string or fishing line strung through slots in the sides of the cardboard to pull multiple sarrus linkages, like shown in figure 4, but I found that simply manually manipulating them was sufficient. 
