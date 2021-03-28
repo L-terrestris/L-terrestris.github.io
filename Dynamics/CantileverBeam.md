@@ -34,56 +34,56 @@ The images below show the different configuration setups used in the experiments
 <img src="IMG_4122.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">100g</p>
 
-<img src="IMG_4123.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4123.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">200g</p>
 
-<img src="IMG_4125.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4125.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">300g</p>
 
-<img src="IMG_4126.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4126.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">400g</p>
 
-<img src="IMG_4127.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4127.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">500g</p>
 
 ###### Red beam
 
-<img src="IMG_4128.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4128.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">Unloaded</p>
 
-<img src="IMG_4129.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4129.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">100g</p>
 
-<img src="IMG_4130.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4130.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">200g</p>
 
-<img src="IMG_4131.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4131.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">300g</p>
 
-<img src="IMG_4132.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4132.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">400g</p>
 
-<img src="IMG_4133.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4133.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">500g</p>
 
 ###### Green beam
 
-<img src="IMG_4134.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4134.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">Unloaded</p>
 
-<img src="IMG_4135.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4135.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">100g</p>
 
-<img src="IMG_4136.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4136.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">200g</p>
 
-<img src="IMG_4137.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4137.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">300g</p>
 
-<img src="IMG_4138.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4138.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">400g</p>
 
-<img src="IMG_4139.jpg" alt="beams" width=500 height=500>
+<img src="IMG_4139.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">500g</p>
 
 2. Table of deflections
