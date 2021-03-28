@@ -26,3 +26,7 @@ https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.1946.0003?casa_token=IVl
 
 [2] Cronodon BioTech, Asteroid mechanics, “Asteroids 2- Hydraulic systems”
 https://cronodon.com/BioTech/Asteroids_hydraulics.html
+
+## Flexible Spine Concept
+[1] Zarrouk Lab. "Miniature SAW robot presented at ICRA 2019," YouTube, July 5, 2020. [Video file]. Available: https://www.youtube.com/watch?v=WTOz0OyJhzM. [Accessed: Mar. 6, 2021].
+
