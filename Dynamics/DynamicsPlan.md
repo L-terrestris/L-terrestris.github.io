@@ -1,8 +1,9 @@
 ---
-title: Dynamics Plan
+title: Dynamics II Plan
 ---
 
-# System Dynamics Draft
+### [Assignment Instructions](https://egr557.github.io/assignments/dynamics-ii-plan.html)
+
 
 Identify and discuss the materials you plan to use in fabrication. Decide who will be obtaining those materials and distributing them.
  
