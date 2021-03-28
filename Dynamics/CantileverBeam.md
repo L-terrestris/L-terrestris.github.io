@@ -28,7 +28,7 @@ The images below show the different configuration setups used in the experiments
 
 ###### Violet beam
 
-![pic](IMG_4121.JPG)
+<img src="IMG_4121.JPG" alt="beams" width=500 height=500>
 <p style="text-align: center;">Unloaded</p>
 
 <img src="IMG_4122.JPG" alt="beams" width=500 height=500>
