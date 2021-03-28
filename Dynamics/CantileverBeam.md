@@ -1,5 +1,7 @@
-# EGR 557: Cantilever Beam Experiment
-Gilgal Ansah
+---
+title: Cantilever Beam Experiment
+---
+### [Assignment Instructions](https://egr557.github.io/modules/compliance/cantilever-beams.html)
 
 1. 4 Rectangular CardStock Beams
 
