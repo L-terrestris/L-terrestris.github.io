@@ -1,8 +1,14 @@
-#System Kinematics
+---
+title: System Kinematics
+---
+
+# System Kinematics
+## Description 
+[Assignment Instructions](https://egr557.github.io/assignments/system-kinematics.html)
+
+## Team Response
 
 Team 5
-
-
 
 Gilgal Ansah
 gjansah@asu.edu
@@ -16,7 +22,20 @@ jrnguyen@asu.edu
 Jacob Sindorf 
 jsindorf@asu.edu
 
-#Kinematic Model
+## Device Figure
+
+### System Kinematics
+
+![picture](kinNew2.png)
+
+![picture](kinNew.png)
+
+## Paper Model 
+
+![picture](leg.PNG)
+
+
+## Kinematic Model
 
 Code of the kinematic model (see HW step 3)
 
@@ -837,8 +856,3 @@ Our robot kinematics was modeled with bio-inspiration from the starfish. Based o
 4. How did you estimate your expected end-effector speeds
 
 The equation for the velocity of the end effector was found symbolically through the python simulation above. For the estimated velocity values, we used values determined by the biomechanics assignment for movement speed. Geometric relations for angular speed helped us determine the output velocity given a specific input. 
-
-
-```python
-
-```
