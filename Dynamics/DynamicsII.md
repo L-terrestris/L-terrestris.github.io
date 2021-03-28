@@ -55,9 +55,8 @@ Differentiable variables are important in describing the positions and rotations
 Lengths are also shown for some lengths as the system is symmetric and uses the same length in multiple places. 
 
 
-![Alt Text](FEAexample.PNG)
+![Alt Text](FEA.PNG)
 
-(example pulled for 12000 MPA, just to show one example) 
 This FEA analysis of cardstock in Solidworks is how we are coming to a conclusion on the stiffness values to use.
 
 
