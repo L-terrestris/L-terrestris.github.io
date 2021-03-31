@@ -53,19 +53,12 @@ _Table 1 Information on STarfish_
 
 | Parameter      | Unit | Value Range | Reference |
 | --- | --- | --- | --- |
-
 | Body mass | grams| Up to 4989.516|
-
 | Max Speed | m/s| 0.268224|
-
 | Single Podium Force | N| 0.245 - 0.294|
-
 | Podia Pressure |Pa| 62052.82|
-
 | Size |mm|119.38 - 238.76|
-
 | Longitudinal Young's modulus of body wall |MPa | 267|
-
 | Transverse Young's modulus of body wall | MPa | 249|
 
 ### Extrapolation
@@ -119,3 +112,7 @@ Considering the  weight-to-power ratio of the podia to the power of the DC motor
 
 
 ### References
+[1]"Explore the Inside of a Sea Star", ThoughtCo, 2021. [Online]. Available: https://www.thoughtco.com/starfish-anatomy-2291457. [Accessed: 31- Mar- 2021].\
+[2]"Locomotion at Eagle Cove", Depts.washington.edu, 2021. [Online]. Available: https://depts.washington.edu/fhl/zoo432/eaglecove/locomotion.html#:~:text=The%20thousands%20of%20podia%20each,lower%20surface%20of%20the%20arms. [Accessed: 31- Mar- 2021].\
+[3]S. Mao, E. Dong, H. Jin, S. Zhang, J. Yang and K. Low, "Gait Study and Pattern Generation of a Starfish-Like Soft Robot with Flexible Rays Actuated by SMAs", Science Direct, vol. 11, no. 3, pp. 1-12, 2014. [Accessed 31 March 2021].\
+[4]M. Bell et al., "Echinoderm-inspired Tube Feet for Robust Robot Locomotion and Adhesion", Scholar.harvard.edu, 2018. [Online]. Available: https://scholar.harvard.edu/files/michael-bell/files/Echinoderm-inspired-Tube-Feet-for-Robust-Robot-Locomotion-and-Adhesion.pdf. [Accessed: 31- Mar- 2021].
