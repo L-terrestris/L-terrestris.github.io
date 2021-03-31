@@ -31,18 +31,18 @@ Team 5 sought bio-inspiration from the Crossaster papposus, which is also referr
 ![Earthworm](starfish.png)\
 Fig 1 Anatomy of StarFish
 
-One of our initial tasks was to find multiple sources that are closely related to our area of research to obtain physical quantities and develop initial specifications for our robot. The team found a  number of relevant articles [x]–[x] (along with several websites), 1 of which will be especially valuable to the project and will be described in greater detail below. The podia of the starfish use a unique locomotion that ultimately allows the starfish to move.
-Work # explains the locomotion that is produced from “The thousands of podia each take alternating power and recovery strokes, making movement of the entire animal smooth. When moving this way, the body shape of asteroids (sea stars) remains constant given the movement of individual podia along the lower surface of the arms” [washington paper].
+One of our initial tasks was to find multiple sources that are closely related to our area of research to obtain physical quantities and develop initial specifications for our robot. The team found a  number of relevant articles [1]–[8] (along with several websites), 1 of which will be especially valuable to the project and will be described in greater detail below. The podia of the starfish use a unique locomotion that ultimately allows the starfish to move.
+Work [2] explains the locomotion that is produced from “The thousands of podia each take alternating power and recovery strokes, making movement of the entire animal smooth. When moving this way, the body shape of asteroids (sea stars) remains constant given the movement of individual podia along the lower surface of the arms” [2].
 The podia take in water from one position, relocate themselves and then dissipate the water in the new position of the podia.
 The displacement of water is not the main aspect of the podia that will be adapted in the project; moreso the ability of the podia to reposition itself and lift the starfish.
-When the water is dissipated there is a small lift that takes place, but with thousands of podia, motion is then established and the starfish’s unique gait pattern is then created [science direct]. 
+When the water is dissipated there is a small lift that takes place, but with thousands of podia, motion is then established and the starfish’s unique gait pattern is then created [3]. 
 The podia have been used to inspire several starfish bio-inspired robots, although a large amount of these robots utilize hydraulics, which is not desirable for the project at hand. 
 
 ### Bio-inspired Robots
-The most important starfish bio-inspired robots that related to our projects were papers (list papers).
+The most important starfish bio-inspired robots that related to our projects were [4],[10-12].
 These papers demonstrated the function of the podia in a robotic nature as well as the gait pattern of the starfish, both important aspects of the desired project.
-Of these papers, [harvard paper]  based its robot solely off of the podia of the starfish, which is the intended design for the robot that will be built for EGR 557.
-The robot from work [harvard paper] utilized a silicon molded component to serve as the podia shaft of the starfish. These silicon podia were multi-layered, much like a telescope to where the inner layers were able to bend with the outer layers. In the middle of the silicon cylinder lies a magnet and wire mesh and the combination of these with the use of four PWM waves in MATLAB the wheel of podia can be controlled.
+Of these papers, [4]  based its robot solely off of the podia of the starfish, which is the intended design for the robot that will be built for EGR 557.
+The robot from work [4] utilized a silicon molded component to serve as the podia shaft of the starfish. These silicon podia were multi-layered, much like a telescope to where the inner layers were able to bend with the outer layers. In the middle of the silicon cylinder lies a magnet and wire mesh and the combination of these with the use of four PWM waves in MATLAB the wheel of podia can be controlled.
 The motion in this work, very closely resembles the motion that would be desirable for the foldable podia robot for EGR 557.
 
 ### Table of relevant info
@@ -53,13 +53,13 @@ _Table 1 Information on STarfish_
 
 | Parameter      | Unit | Value Range | Reference |
 | --- | --- | --- | --- |
-| Body mass | grams| Up to 4989.516|
-| Max Speed | m/s| 0.268224|
-| Single Podium Force | N| 0.245 - 0.294|
-| Podia Pressure |Pa| 62052.82|
-| Size |mm|119.38 - 238.76|
-| Longitudinal Young's modulus of body wall |MPa | 267|
-| Transverse Young's modulus of body wall | MPa | 249|
+| Body mass | grams| Up to 4989.516|[5]|
+| Max Speed | m/s| 0.268224|[6]|
+| Single Podium Force | N| 0.245 - 0.294|[7]|
+| Podia Pressure |Pa| 62052.82|[7]|
+| Size |mm|119.38 - 238.76|[5]|
+| Longitudinal Young's modulus of body wall |MPa | 267|[8]|
+| Transverse Young's modulus of body wall | MPa | 249|[8]|
 
 ### Extrapolation
 Below, we present math models  of some extra metrics using some of the details in the above table.
@@ -115,4 +115,14 @@ Considering the  weight-to-power ratio of the podia to the power of the DC motor
 [1]"Explore the Inside of a Sea Star", ThoughtCo, 2021. [Online]. Available: https://www.thoughtco.com/starfish-anatomy-2291457. [Accessed: 31- Mar- 2021].\
 [2]"Locomotion at Eagle Cove", Depts.washington.edu, 2021. [Online]. Available: https://depts.washington.edu/fhl/zoo432/eaglecove/locomotion.html#:~:text=The%20thousands%20of%20podia%20each,lower%20surface%20of%20the%20arms. [Accessed: 31- Mar- 2021].\
 [3]S. Mao, E. Dong, H. Jin, S. Zhang, J. Yang and K. Low, "Gait Study and Pattern Generation of a Starfish-Like Soft Robot with Flexible Rays Actuated by SMAs", Science Direct, vol. 11, no. 3, pp. 1-12, 2014. [Accessed 31 March 2021].\
-[4]M. Bell et al., "Echinoderm-inspired Tube Feet for Robust Robot Locomotion and Adhesion", Scholar.harvard.edu, 2018. [Online]. Available: https://scholar.harvard.edu/files/michael-bell/files/Echinoderm-inspired-Tube-Feet-for-Robust-Robot-Locomotion-and-Adhesion.pdf. [Accessed: 31- Mar- 2021].
+[4]M. Bell et al., "Echinoderm-inspired Tube Feet for Robust Robot Locomotion and Adhesion", Scholar.harvard.edu, 2018. [Online]. Available: https://scholar.harvard.edu/files/michael-bell/files/Echinoderm-inspired-Tube-Feet-for-Robust-Robot-Locomotion-and-Adhesion.pdf. [Accessed: 31- Mar- 2021].\
+[5]“Starfish (Sea Stars) | National Geographic,” Animals, Oct. 09, 2010. https://www.nationalgeographic.com/animals/invertebrates/facts/starfish-1 (accessed Mar. 31, 2021).\
+[6]“Starfish Fish Facts | Asteroidea,” AZ Animals. https://a-z-animals.com/animals/starfish/ (accessed Mar. 31, 2021).\
+[7]“Asteroids_hydraulics.” https://cronodon.com/BioTech/Asteroids_hydraulics.html (accessed Mar. 31, 2021).\
+[8]“O’Neill - STRUCTURE AND MECHANICS OF STARFISH BODY WALL.pdf.” Accessed: Mar. 31, 2021. [Online]. Available: https://jeb.biologists.org/content/jexbio/147/1/53.full.pdf.\
+[9]“Engineering Robotic Starfish.” https://robotics.umd.edu/news/story/engineering-robotic-starfish (accessed Mar. 31, 2021).\
+[10]X. Yang, R. Tan, H. Lu, and Y. Shen, “Starfish Inspired Milli Soft Robot With Omnidirectional Adaptive Locomotion Ability,” IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 3325–3332, Apr. 2021, doi: 10.1109/LRA.2021.3062823.\
+[11]“Starfish-inspired ‘soft’ robot squeezes under obstacles,” BBC News, Nov. 28, 2011.\
+[12]I. Fadelli and T. Xplore, “This is PATRICK: Meet the brittle star-inspired robot that can crawl underwater.” https://techxplore.com/news/2020-04-patrick-brittle-star-inspired-robot-underwater.html (accessed Mar. 31, 2021).
+
+
