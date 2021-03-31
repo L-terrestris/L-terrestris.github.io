@@ -13,8 +13,6 @@ title: Biomechanics Background and Initial Specifications
 [Table of relevant info](#Table-of-relevant-info)\
 [Extrapolation (Fill in the gaps)](#Extrapolation-(Fill-in-the-gaps))\
   -[Kinetic Energy](#Kinetic-Energy)\
-  -[Ground Reaction Force](#Ground-Reaction-Force)\
-  -[Axial Acceleration](#Axial-Acceleration)\
   -[Metabolic Rate](#Metabolic-Rate)\
 [Figures from literature](#Figures-from-literature)\
 [Simple engineering drawing](#Simple-engineering-drawing)\
