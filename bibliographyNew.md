@@ -12,6 +12,12 @@ title: Bibliography
 \
 [4] T. Paschal, et al. “Design, Fabrication, and Characterization of an Untethered Amphibious Sea Urchin-Inspired Robot.” IEEE Robotics and Automation Letters, vol. 4, no. 4, IEEE, 2019, pp. 3348–54, doi:10.1109/LRA.2019.2926683.
 
+## Biomechanics
+[1]"Explore the Inside of a Sea Star", ThoughtCo, 2021. [Online]. Available: https://www.thoughtco.com/starfish-anatomy-2291457. [Accessed: 31- Mar- 2021].\
+[2]"Locomotion at Eagle Cove", Depts.washington.edu, 2021. [Online]. Available: https://depts.washington.edu/fhl/zoo432/eaglecove/locomotion.html#:~:text=The%20thousands%20of%20podia%20each,lower%20surface%20of%20the%20arms. [Accessed: 31- Mar- 2021].\
+[3]S. Mao, E. Dong, H. Jin, S. Zhang, J. Yang and K. Low, "Gait Study and Pattern Generation of a Starfish-Like Soft Robot with Flexible Rays Actuated by SMAs", Science Direct, vol. 11, no. 3, pp. 1-12, 2014. [Accessed 31 March 2021].\
+[4]M. Bell et al., "Echinoderm-inspired Tube Feet for Robust Robot Locomotion and Adhesion", Scholar.harvard.edu, 2018. [Online]. Available: https://scholar.harvard.edu/files/michael-bell/files/Echinoderm-inspired-Tube-Feet-for-Robust-Robot-Locomotion-and-Adhesion.pdf. [Accessed: 31- Mar- 2021].
+
 
 ## Presentaion 1
 [1] R. Liu and Y. Yao, “A novel serial–parallel hybrid worm-like robot with multi-mode undulatory locomotion,” Mech. Mach. Theory, vol. 137, pp. 404–431, 2019.\
