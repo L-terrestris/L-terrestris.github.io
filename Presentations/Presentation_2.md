@@ -9,7 +9,7 @@ title: Presentation 2
 
 ## Team Response
 ### Videos
-The videos show the initial and final takes for the first team presentation.
+The video below discusses the team's project shift and covers the new system dynamics, kinematics as well as prototyping material identification.
 
 <iframe width="974" height="548" src="https://www.youtube.com/embed/WqxZr-pha3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
