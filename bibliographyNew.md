@@ -16,7 +16,15 @@ title: Bibliography
 [1]"Explore the Inside of a Sea Star", ThoughtCo, 2021. [Online]. Available: https://www.thoughtco.com/starfish-anatomy-2291457. [Accessed: 31- Mar- 2021].\
 [2]"Locomotion at Eagle Cove", Depts.washington.edu, 2021. [Online]. Available: https://depts.washington.edu/fhl/zoo432/eaglecove/locomotion.html#:~:text=The%20thousands%20of%20podia%20each,lower%20surface%20of%20the%20arms. [Accessed: 31- Mar- 2021].\
 [3]S. Mao, E. Dong, H. Jin, S. Zhang, J. Yang and K. Low, "Gait Study and Pattern Generation of a Starfish-Like Soft Robot with Flexible Rays Actuated by SMAs", Science Direct, vol. 11, no. 3, pp. 1-12, 2014. [Accessed 31 March 2021].\
-[4]M. Bell et al., "Echinoderm-inspired Tube Feet for Robust Robot Locomotion and Adhesion", Scholar.harvard.edu, 2018. [Online]. Available: https://scholar.harvard.edu/files/michael-bell/files/Echinoderm-inspired-Tube-Feet-for-Robust-Robot-Locomotion-and-Adhesion.pdf. [Accessed: 31- Mar- 2021].
+[4]M. Bell et al., "Echinoderm-inspired Tube Feet for Robust Robot Locomotion and Adhesion", Scholar.harvard.edu, 2018. [Online]. Available: https://scholar.harvard.edu/files/michael-bell/files/Echinoderm-inspired-Tube-Feet-for-Robust-Robot-Locomotion-and-Adhesion.pdf. [Accessed: 31- Mar- 2021].\
+[5]“Starfish (Sea Stars) | National Geographic,” Animals, Oct. 09, 2010. https://www.nationalgeographic.com/animals/invertebrates/facts/starfish-1 (accessed Mar. 31, 2021).\
+[6]“Starfish Fish Facts | Asteroidea,” AZ Animals. https://a-z-animals.com/animals/starfish/ (accessed Mar. 31, 2021).\
+[7]“Asteroids_hydraulics.” https://cronodon.com/BioTech/Asteroids_hydraulics.html (accessed Mar. 31, 2021).\
+[8]“O’Neill - STRUCTURE AND MECHANICS OF STARFISH BODY WALL.pdf.” Accessed: Mar. 31, 2021. [Online]. Available: https://jeb.biologists.org/content/jexbio/147/1/53.full.pdf.\
+[9]“Engineering Robotic Starfish.” https://robotics.umd.edu/news/story/engineering-robotic-starfish (accessed Mar. 31, 2021).\
+[10]X. Yang, R. Tan, H. Lu, and Y. Shen, “Starfish Inspired Milli Soft Robot With Omnidirectional Adaptive Locomotion Ability,” IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 3325–3332, Apr. 2021, doi: 10.1109/LRA.2021.3062823.\
+[11]“Starfish-inspired ‘soft’ robot squeezes under obstacles,” BBC News, Nov. 28, 2011.\
+[12]I. Fadelli and T. Xplore, “This is PATRICK: Meet the brittle star-inspired robot that can crawl underwater.” https://techxplore.com/news/2020-04-patrick-brittle-star-inspired-robot-underwater.html (accessed Mar. 31, 2021).
 
 
 ## Presentaion 1
