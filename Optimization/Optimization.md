@@ -6,28 +6,25 @@ title: Design Optimization
 [Assignment Instructions](https://egr557.github.io/assignments/design-optimization.html)
  
 ### Performance Measurement
-1. Explain, in words, how your team will evaluate the success of your robot’s design. This could be by measuring the forces produced by your design, the speed at which it walks, its thrust:weight ratio, the height it can jump, etc. Explain, in words, how you will measure performance in simulation. How will you measure performance in experiments?
+a. Explain, in words, how your team will evaluate the success of your robot’s design. This could be by measuring the forces produced by your design, the speed at which it walks, its thrust:weight ratio, the height it can jump, etc. Explain, in words, how you will measure performance in simulation. How will you measure performance in experiments?
 * Our team’s device is intended to walk using the foldable concepts we learned in class. The locomotion is driven through alternating sarrus linkages and a leg stiffness to move in a forward direction. In order to have a successful device, we wouldn't want to optimize the leg stiffness such that we get the maximum distance traveled per stride. To measure this, we would need to start the device at a specific zero point, with sarrus linkages and leg set to a common initial position. After starting the device, taking time measurements and distance traveled (in x) of the device would allow us to calculate distance per stride, body lengths per second, etc. This is achievable with a tape measure adhered to a table, a stopwatch, and a camera (to ensure accuracy). 
 * Success: distance traveled/ distance per stride / body lengths per stride
 * Measure: tape measure, starting point at 0, stopwatch to measure time points
 
 
-3. Are experimental vs. simulation metrics similar or vastly different? If different, how will you equate A with B?
-
-
-
+b. Are experimental vs. simulation metrics similar or vastly different? If different, how will you equate A with B?
 
 * We consider the experimental and simulation metrics to be similar. The simulation metrics are designed to optimize the spring stiffness in the leg based on the device restrictions (such as available motor torque/speed, sarrus linkage spring stiffness etc). The Dynamics II code is then able to output the x distance traveled of the device. The farthest traveled x distance would be the best leg stiffness value. Experimentally, we want to test the optimized leg stiffness, and measure the distance traveled of the device. We could calculate body lengths per second as well. The optimized spring stiffness would be a maximum spring stiffness based on the device restrictions (so the motor and sarrus linkages could still move in a loop). This would give us a ground reaction force that would propel the device more if the force is higher. So the optimized stiffness would yield the farthest distance traveled.  
 
-3. Do you have more than one performance metric you must use as for design goals? If so, either identify the most important one or explain how you will balance two competing criteria. For example, if you need a robot to jump high AND far, which is more important, or how do you establish a relationship between these two possibly competing goals?
+c. Do you have more than one performance metric you must use as for design goals? If so, either identify the most important one or explain how you will balance two competing criteria. For example, if you need a robot to jump high AND far, which is more important, or how do you establish a relationship between these two possibly competing goals?
 
 * The goal of our device is to travel farther in one stride. A stride would be similar to human gait where it is the duration of leg contact to the next time the leg contacts the ground. In order to travel far, we would need an optimized leg stiffness value, that is able to provide an extra push when walking. A small stiffness would collapse and provide no push, and a rigid leg would not add any extra force to the system. By optimizing the leg stiffness, the distance traveled could be seen as a direct consequence. To balance the criteria, we would first optimize the stiffness through simulation, then we can run performance measurements based on that result. 
 
-4. Explain, in math, the measurable performance metric(s) by which your team can estimate performance.
+d. Explain, in math, the measurable performance metric(s) by which your team can estimate performance.
 
 * (Body lengths/Distance traveled) * (Distance traveled/Second) = Body lengths/Second
 
-5. Write, in code, a function that will evaluate the performance of your current system (as simulated in System Dynamics II).
+e. Write, in code, a function that will evaluate the performance of your current system (as simulated in System Dynamics II).
 
 * See Dynamics II code, we alter the input k value which is the stiffness in the leg. We can then extract the x distance traveled by the device over time and compare that for each given stiffness. 
 
