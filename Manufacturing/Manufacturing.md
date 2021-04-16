@@ -2,12 +2,12 @@
 title: Design and Manufacturing Workflow
 ---
 
-### Description
+## Description
 [Assignment Instructions](https://egr557.github.io/assignments/design-and-manufacturing-workflow.html)
 
-### Team Response
+## Team Response
 
-# 1 Paper Mockup
+### 1 Paper Mockup
 
 The paper mock up is identical to the solidworks design seen after. It uses the same measurements as the dynamics II assignments, and is made of cardboard (frame) and cardstock (leg and links). To hold everything together, tape can be used, but the final device would use glue as it would provide a cleaner connection. 
 
@@ -18,7 +18,7 @@ Folded:
 Flattened:
 ![Alt Text](PaperModelFlat.PNG)
 
-# 2 Solidworks Model
+### 2 Solidworks Model
 
 The solidworks model seen here is a 3D version of our design. The folded states depicts both the assembled and exploded view for clarity. The flattened state represents the unfolded assembly in a way that can be used for manufacturing later. The system itself consists of 3 main parts, the sarrus linkages (x2), the frame, and the leg. Holes in the device are for the motor cable to move through, and flaps are used to adhere joints to one another. 
 
@@ -29,13 +29,13 @@ Folded:
 Flattened:
 ![Alt Text](SystemFlattened.PNG)
 
-# 3 DXF file 
+### 3 DXF file 
 
 The dxf file directly from solidworks (the method of retrieving the yaml file, then getting the dxf) had issues that left every joint. To troubleshoot, we attempted to add more verticies, and even manually adding them in the program draft sight, both to no avail. Eventually, we found a different program called libreCAD that functions similarly to draft sight. This allowed us to finally obtain the proper dxf file needed, with both body (red) and joint (blue) layers. 
 
 ![Alt Text](LibreCADPic.PNG)
 
-# 4 Jupyter Notebook
+### 4 Jupyter Notebook
 
 
 ```python
@@ -500,7 +500,7 @@ Exporting 1-layer DXF:
 final_cut.export_dxf('Single_Layer_Cut')
 ```
 
-# 5 Layer robot design approach
+### 5 Layer robot design approach
 
 Generate 5 layer castellated hinge:
 
@@ -557,7 +557,7 @@ hole<<=.2
 hole.plot()
 ```
 
-# 5 Layer manufacturing design approach
+### 5 Layer manufacturing design approach
 
 Subtracting hole, cut, and joint geometries from the body, resulting in the intended design:
 
@@ -594,7 +594,7 @@ first_pass_scrap = foldable_robotics.manufacturing.cleanup(first_pass_scrap,.000
 first_pass_scrap.plot()
 ```
 
-Support design
+#### Support design
 
 
 ```python
@@ -623,7 +623,7 @@ final_cut = final_cut[0]
 final_cut.plot()
 ```
 
-Full cutsheet
+#### Full cutsheet
 
 
 ```python
@@ -632,7 +632,7 @@ remaining_material.plot()
 #make dxf here
 ```
 
-Connection check
+#### Connection check
 
 
 ```python
@@ -692,7 +692,7 @@ if check.is_null():
 check.is_null()
 ```
 
-Exporting 5-layer DXFs:
+#### Exporting 5-layer DXFs:
 
 
 ```python
@@ -701,7 +701,7 @@ adhesive_layer.export_dxf('adhesive_layer')
 final_cut.export_dxf('final_cut')
 ```
 
-# 5 Final DXF files
+### 5 Final DXF files
 
 Single layer DXF:
 
