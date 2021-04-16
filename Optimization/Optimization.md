@@ -1,6 +1,9 @@
 ---
 title: Design Optimization
 ---
+
+### Description
+[https://egr557.github.io/assignments/design-optimization.html](Assignment Instructions)
  
 ### Performance Measurement
 1. Explain, in words, how your team will evaluate the success of your robot’s design. This could be by measuring the forces produced by your design, the speed at which it walks, its thrust:weight ratio, the height it can jump, etc. Explain, in words, how you will measure performance in simulation. How will you measure performance in experiments?
