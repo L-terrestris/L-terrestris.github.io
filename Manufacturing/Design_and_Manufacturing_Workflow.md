@@ -249,7 +249,8 @@ def calculate_removable_scrap(design,sheet,width,is_adhesive):
 
 
 ```python
-folder = 'C:/Users/Jonathan/Documents/Jupyter/Design and Manufacturing Workflow/'                       #folder with yaml file
+folder='F:/EGR 557/Team5_Design and Manufacturing Workflow/Design and Manufacturing Workflow/'
+# folder = 'C:/Users/Jonathan/Documents/Jupyter/Design and Manufacturing Workflow/'                       #folder with yaml file
 input_filename = folder+'TESTFlatSystemPart - Sheet1_Drawing View1.yaml'                      #All flattened assemblies
 #input_filename = folder+'SarrusLinkage - Sheet1_Drawing View1.yaml'                        #Only sarrus linkage
 output_file_name = 'design.dxf'
@@ -275,31 +276,12 @@ foldable_robotics.solidworks_support.process(input_filename,output_file_name,pre
 ```
 
 
-    ---------------------------------------------------------------------------
 
-    FileNotFoundError                         Traceback (most recent call last)
 
-    <ipython-input-17-67c1ada5ddbf> in <module>
-    ----> 1 foldable_robotics.solidworks_support.process(input_filename,output_file_name,prescale,round_digits)
-    
+    (<foldable_robotics.layer.Layer at 0x1e145acf6d0>,
+     <foldable_robotics.layer.Layer at 0x1e145acfc10>,
+     [<foldable_robotics.solidworks_support.Component at 0x1e145ac47c0>])
 
-    ~\anaconda3\lib\site-packages\foldable_robotics\solidworks_support.py in process(filename, output_file_name, prescale, round_digits)
-        138 def process(filename,output_file_name,prescale,round_digits):
-        139 
-    --> 140     components = create_loops(filename,prescale)
-        141     layers = [component_to_layer(item) for item in components]
-        142     layer2 = Layer()
-    
-
-    ~\anaconda3\lib\site-packages\foldable_robotics\solidworks_support.py in create_loops(filename, prescale)
-         41 def create_loops(filename,prescale):
-         42 #    plt.figure()
-    ---> 43     with open(filename) as f:
-         44         data1 = yaml.load(f,Loader=yaml.FullLoader)
-         45     data = objectify(data1)
-    
-
-    FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/Jonathan/Documents/Jupyter/Design and Manufacturing Workflow/TESTFlatSystemPart - Sheet1_Drawing View1.yaml'
 
 
 # 1 Layer manufacturing design approach
@@ -329,15 +311,34 @@ hinge.plot()
 ```
 
 
+    
+![png](output_23_0.png)
+    
+
+
+
 ```python
 NUMLAYERS = len(hinge)
 NUMLAYERS
 ```
 
 
+
+
+    1
+
+
+
+
 ```python
 hinge.plot()
 ```
+
+
+    
+![png](output_25_0.png)
+    
+
 
 Creating the main body of the design from the imported DXF. New_output_file_name is the modified design.dxf file.
 
@@ -348,6 +349,12 @@ body = foldable_robotics.manufacturing.cleanup(body,.01)
 body.plot()
 ```
 
+
+    
+![png](output_27_0.png)
+    
+
+
 Plots the perforated hinges at each joint line from the joint layer:
 
 
@@ -357,6 +364,12 @@ joints = hinge_lines_to_hinges(joint_lines,hinge)
 joints = foldable_robotics.manufacturing.cleanup(joints,.001)
 joints.plot()
 ```
+
+
+    
+![png](output_29_0.png)
+    
+
 
 
 ```python
@@ -380,6 +393,12 @@ hole<<=.2
 hole.plot()
 ```
 
+
+    
+![png](output_33_0.png)
+    
+
+
 How the end result will look:
 
 
@@ -388,6 +407,12 @@ design2 = body- hole - joints - cuts - holes
 design2.plot()
 ```
 
+
+    
+![png](output_35_0.png)
+    
+
+
 Generating the keepout. In the single layer case, it is essentially equivalent to design2.
 
 
@@ -395,6 +420,12 @@ Generating the keepout. In the single layer case, it is essentially equivalent t
 keepout =  foldable_robotics.manufacturing.keepout_laser(design2)
 keepout.plot()
 ```
+
+
+    
+![png](output_37_0.png)
+    
+
 
 Web and sheet generation:
 
@@ -405,9 +436,21 @@ web.plot()
 ```
 
 
+    
+![png](output_39_0.png)
+    
+
+
+
 ```python
 sheet.plot()
 ```
+
+
+    
+![png](output_40_0.png)
+    
+
 
 Since it is one layer, only a first/single pass in needed.
 
@@ -419,6 +462,12 @@ first_pass_scrap = foldable_robotics.manufacturing.cleanup(first_pass_scrap,.000
 first_pass_scrap.plot()
 ```
 
+
+    
+![png](output_42_0.png)
+    
+
+
 Generating support:
 
 
@@ -427,6 +476,12 @@ support = foldable_robotics.manufacturing.support(design2,foldable_robotics.manu
 support.plot()
 ```
 
+
+    
+![png](output_44_0.png)
+    
+
+
 Merging the web, design2 and support into the supported design:
 
 
@@ -434,6 +489,12 @@ Merging the web, design2 and support into the supported design:
 supported_design = web|design2|support
 supported_design.plot()
 ```
+
+
+    
+![png](output_46_0.png)
+    
+
 
 Plotting the material that will be cut and then the final cut itself:
 
@@ -445,11 +506,23 @@ cut_material.plot()
 ```
 
 
+    
+![png](output_48_0.png)
+    
+
+
+
 ```python
 final_cut = sheet - keepout
 final_cut = final_cut[0]
 final_cut.plot()
 ```
+
+
+    
+![png](output_49_0.png)
+    
+
 
 Plotting the material that will remain after the cut:
 
@@ -459,6 +532,12 @@ remaining_material = supported_design-cut_material
 remaining_material.plot()
 #make dxf here
 ```
+
+
+    
+![png](output_51_0.png)
+    
+
 
 Plots of each separate piece resulting from the cuts:
 
@@ -470,6 +549,78 @@ for item in remaining_parts:
 ```
 
 
+    
+![png](output_53_0.png)
+    
+
+
+
+    
+![png](output_53_1.png)
+    
+
+
+
+    
+![png](output_53_2.png)
+    
+
+
+
+    
+![png](output_53_3.png)
+    
+
+
+
+    
+![png](output_53_4.png)
+    
+
+
+
+    
+![png](output_53_5.png)
+    
+
+
+
+    
+![png](output_53_6.png)
+    
+
+
+
+    
+![png](output_53_7.png)
+    
+
+
+
+    
+![png](output_53_8.png)
+    
+
+
+
+    
+![png](output_53_9.png)
+    
+
+
+
+    
+![png](output_53_10.png)
+    
+
+
+
+    
+![png](output_53_11.png)
+    
+
+
+
 ```python
 d3=design2>>1
 for item in remaining_parts:
@@ -478,6 +629,9 @@ for item in remaining_parts:
 check = (item^design2)
 print(check.is_null())
 ```
+
+    False
+    
 
 Exporting 1-layer DXF:
 
@@ -504,10 +658,23 @@ hinge.plot()
 ```
 
 
+    
+![png](output_59_0.png)
+    
+
+
+
 ```python
 NUMLAYERS = len(hinge)
 NUMLAYERS
 ```
+
+
+
+
+    5
+
+
 
 
 ```python
@@ -515,6 +682,12 @@ body = get_bodies(New_output_file_name,'body',NUMLAYERS)
 body = foldable_robotics.manufacturing.cleanup(body,.01)
 body.plot()
 ```
+
+
+    
+![png](output_61_0.png)
+    
+
 
 mapping the hinge design to each joint in your joints layer of the dxf
 
@@ -525,6 +698,12 @@ joints = hinge_lines_to_hinges(joint_lines,hinge)
 joints = foldable_robotics.manufacturing.cleanup(joints,.02)
 joints.plot()
 ```
+
+
+    
+![png](output_63_0.png)
+    
+
 
 
 ```python
@@ -548,6 +727,12 @@ hole<<=.2
 hole.plot()
 ```
 
+
+    
+![png](output_67_0.png)
+    
+
+
 # 5 Layer manufacturing design approach
 
 Subtracting hole, cut, and joint geometries from the body, resulting in the intended design:
@@ -559,10 +744,22 @@ design2.plot()
 ```
 
 
+    
+![png](output_70_0.png)
+    
+
+
+
 ```python
 keepout =  foldable_robotics.manufacturing.keepout_laser(design2)
 keepout.plot()
 ```
+
+
+    
+![png](output_71_0.png)
+    
+
 
 Web design
 
@@ -573,9 +770,21 @@ web.plot()
 ```
 
 
+    
+![png](output_73_0.png)
+    
+
+
+
 ```python
 sheet.plot()
 ```
+
+
+    
+![png](output_74_0.png)
+    
+
 
 
 ```python
@@ -584,6 +793,12 @@ first_pass_scrap = sheet - design2-second_pass_scrap
 first_pass_scrap = foldable_robotics.manufacturing.cleanup(first_pass_scrap,.00001)
 first_pass_scrap.plot()
 ```
+
+
+    
+![png](output_75_0.png)
+    
+
 
 Support design
 
@@ -594,11 +809,23 @@ support.plot()
 ```
 
 
+    
+![png](output_77_0.png)
+    
+
+
+
 ```python
 #Calculate the web by using only the material which can be cut, minus a gap determined by the support width.  Is that the only material you can use?
 supported_design = web|design2|support
 supported_design.plot()
 ```
+
+
+    
+![png](output_78_0.png)
+    
+
 
 
 ```python
@@ -608,11 +835,23 @@ cut_material.plot()
 ```
 
 
+    
+![png](output_79_0.png)
+    
+
+
+
 ```python
 final_cut = sheet - keepout
 final_cut = final_cut[0]
 final_cut.plot()
 ```
+
+
+    
+![png](output_80_0.png)
+    
+
 
 Full cutsheet
 
@@ -623,6 +862,12 @@ remaining_material.plot()
 #make dxf here
 ```
 
+
+    
+![png](output_82_0.png)
+    
+
+
 Connection check
 
 
@@ -631,6 +876,286 @@ remaining_parts = foldable_robotics.manufacturing.find_connected(remaining_mater
 for item in remaining_parts:
     item.plot(new=True)
 ```
+
+    C:\Users\ansah\anaconda3\lib\site-packages\foldable_robotics\laminate.py:91: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+      plt.figure()
+    
+
+
+    
+![png](output_84_1.png)
+    
+
+
+
+    
+![png](output_84_2.png)
+    
+
+
+
+    
+![png](output_84_3.png)
+    
+
+
+
+    
+![png](output_84_4.png)
+    
+
+
+
+    
+![png](output_84_5.png)
+    
+
+
+
+    
+![png](output_84_6.png)
+    
+
+
+
+    
+![png](output_84_7.png)
+    
+
+
+
+    
+![png](output_84_8.png)
+    
+
+
+
+    
+![png](output_84_9.png)
+    
+
+
+
+    
+![png](output_84_10.png)
+    
+
+
+
+    
+![png](output_84_11.png)
+    
+
+
+
+    
+![png](output_84_12.png)
+    
+
+
+
+    
+![png](output_84_13.png)
+    
+
+
+
+    
+![png](output_84_14.png)
+    
+
+
+
+    
+![png](output_84_15.png)
+    
+
+
+
+    
+![png](output_84_16.png)
+    
+
+
+
+    
+![png](output_84_17.png)
+    
+
+
+
+    
+![png](output_84_18.png)
+    
+
+
+
+    
+![png](output_84_19.png)
+    
+
+
+
+    
+![png](output_84_20.png)
+    
+
+
+
+    
+![png](output_84_21.png)
+    
+
+
+
+    
+![png](output_84_22.png)
+    
+
+
+
+    
+![png](output_84_23.png)
+    
+
+
+
+    
+![png](output_84_24.png)
+    
+
+
+
+    
+![png](output_84_25.png)
+    
+
+
+
+    
+![png](output_84_26.png)
+    
+
+
+
+    
+![png](output_84_27.png)
+    
+
+
+
+    
+![png](output_84_28.png)
+    
+
+
+
+    
+![png](output_84_29.png)
+    
+
+
+
+    
+![png](output_84_30.png)
+    
+
+
+
+    
+![png](output_84_31.png)
+    
+
+
+
+    
+![png](output_84_32.png)
+    
+
+
+
+    
+![png](output_84_33.png)
+    
+
+
+
+    
+![png](output_84_34.png)
+    
+
+
+
+    
+![png](output_84_35.png)
+    
+
+
+
+    
+![png](output_84_36.png)
+    
+
+
+
+    
+![png](output_84_37.png)
+    
+
+
+
+    
+![png](output_84_38.png)
+    
+
+
+
+    
+![png](output_84_39.png)
+    
+
+
+
+    
+![png](output_84_40.png)
+    
+
+
+
+    
+![png](output_84_41.png)
+    
+
+
+
+    
+![png](output_84_42.png)
+    
+
+
+
+    
+![png](output_84_43.png)
+    
+
+
+
+    
+![png](output_84_44.png)
+    
+
+
+
+    
+![png](output_84_45.png)
+    
+
+
+
+    
+![png](output_84_46.png)
+    
+
 
 
 ```python
@@ -641,6 +1166,9 @@ for item in remaining_parts:
 check = (item^design2)
 print(check.is_null())
 ```
+
+    False
+    
 
 
 ```python
@@ -661,6 +1189,12 @@ rigid_layer.plot()
 ```
 
 
+    
+![png](output_87_0.png)
+    
+
+
+
 ```python
 l4 = supported_design[3].scale(-1,1)
 p2,p3 = l4.bounding_box_coords()
@@ -669,6 +1203,12 @@ l4 = l4.translate(p0[0]-p2[0]+10+w,p0[1]-p2[1])
 adhesive_layer = supported_design[1] | l4
 adhesive_layer.plot()
 ```
+
+
+    
+![png](output_88_0.png)
+    
+
 
 
 ```python
@@ -682,6 +1222,13 @@ if check.is_null():
 ```python
 check.is_null()
 ```
+
+
+
+
+    False
+
+
 
 Exporting 5-layer DXFs:
 
