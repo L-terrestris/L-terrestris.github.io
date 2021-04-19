@@ -1,3 +1,7 @@
+---
+title: Design and Manufacturing Workflow
+---
+
 # 1 Paper Mockup
 
 The paper mock up is identical to the solidworks design seen after. It uses the same measurements as the dynamics II assignments, and is made of cardboard (frame) and cardstock (leg and links). To hold everything together, tape can be used, but the final device would use glue as it would provide a cleaner connection. 
