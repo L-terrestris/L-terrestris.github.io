@@ -27,6 +27,7 @@ Follow [this link](/OldStuff) for details on the previous work conducted on navi
 4. [System Dynamics](Dynamics/DynamicsNew)
 5. [Design Optimization](Optimization/Optimization)
 6. [Design and Manufacturing Workflow](Manufacturing/Manufacturing)
+7. [Data Collection and Experimental Validation](Validation/Validation)
 
 ## Project Presentations
 1. [Presentation 1](Presentations/Presentation_1)
