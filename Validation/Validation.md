@@ -126,14 +126,14 @@ Overall we would have to find more real world stiffness values, forces (friction
   <source type="video/mp4" src="val2.mp4">
 </video>
 
-<video width="432" height="288" controls autoplay loop>
+<video width="300" height="288" controls autoplay loop>
   <source type="video/mp4" src="val3.mp4">
 </video>
 
-<video width="432" height="288" controls autoplay loop>
+<video width="300" height="288" controls autoplay loop>
   <source type="video/mp4" src="val4.mp4">
 </video>
 
-<video width="432" height="288" controls autoplay loop>
+<video width="300" height="288" controls autoplay loop>
   <source type="video/mp4" src="val5.mp4">
 </video>
