@@ -28,7 +28,8 @@ Table of Contents
 #### System Assembly
 Our system was constructed using low cost materials, consisting of cardstock, kite string, 3D printed parts, a 9V battery, a single DC motor, and a simple switch circuit. The switch was capable of turning the motor off as well as having the ability to go in both directions. Our experiments only consider one direction for motion. The 3D printed parts, contained in system A (see figure 1), consist of 5 gears, with the center gear driven by the motor, and the outermost gears having arms attached to them to drive the kite string cable, compressing the 3D printed springs. The springs were printed with a hook to hold the kite string, and caps on either end to ensure the spring compresses vertically. To adhere parts together, tape was used in all instances. 
 
-Figure 1: System A, Single Actuator Gear Hat, assembly. 
+![System A, Single Actuator Gear Hat, assembly](fig2.png)\
+>Figure 1: System A, Single Actuator Gear Hat, assembly. 
 This design holds the motor, gears, battery, and circuit, and is placed on top of the cardstock frame such that the two holes align with the holes on the cardstock, allowing the cable to be run through.
 
  
