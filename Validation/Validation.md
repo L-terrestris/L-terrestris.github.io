@@ -12,8 +12,8 @@ Table of Contents
 
 
 ## Team Response
->**Content**	
-[Procedure](Procedure)\
+>**Content**\
+>[Procedure](Procedure)\
   -[System Assembly](System-Assembly)\
   -[Experimental Design](Experimental-Design)\
   -[Experimental Set up](Experimental-Set-up)\
@@ -21,8 +21,7 @@ Table of Contents
     -[Optimization](Optimization)\
     -[Experimental Results](Experimental-Results)\
 [Discussion](Discussion)\
-[Supplemental Materials](Supplemental-Materials)\
-
+[Supplemental Materials](Supplemental-Materials)
 
 ### Procedure
 #### System Assembly
@@ -32,13 +31,12 @@ Our system was constructed using low cost materials, consisting of cardstock, ki
 >Figure 1: System A, Single Actuator Gear Hat, assembly. 
 This design holds the motor, gears, battery, and circuit, and is placed on top of the cardstock frame such that the two holes align with the holes on the cardstock, allowing the cable to be run through.
 
- 
-Figure 2: Gear design and set up. 
+![](fig3.png)
+>Figure 2: Gear design and set up. 
 The gears were design such that the single DC motor can actuate both gears at the same time. The larger gears help slow down the speed of the actuator. To perform the walking cycle, the arms on the gears that hold the cable are offset by ¼, the same phase offset used in the dynamics II and optimization codes. This allows the springs to undergo a compression cycle that lets the system walk. 
 
-
-
-Figure 3: Device Manufacturing. 
+![](fig33.png)
+>Figure 3: Device Manufacturing. 
 Our device is made up of 3D printed parts, and folded cardstock parts. The single layer manufacturing design seen in the bottom right shows how each specific piece is cut out and the dotted lines are where the piece is folded. Cardstock does not need to be scored to fold. Each manufactured piece has an arrow pointing to the final folded part, where the leg has 5 different legs (4 layer cardstock not pictured). 
 
 
