@@ -118,6 +118,7 @@ Overall we would have to find more real world stiffness values, forces (friction
 
 ### Supplemental Materials
 ![](Motion.gif)
+![](Testing.gif)
 
 <video width="432" height="288" controls autoplay loop>
   <source type="video/mp4" src="val1.mp4">
