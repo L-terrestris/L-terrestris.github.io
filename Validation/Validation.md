@@ -1,32 +1,45 @@
 ---
 title: Data Collection and Experimental Validation
 ---
+# Data Collection and Experimental Validation
 
-Podia Inspired Single Actuator Leg Robot
+## Description
+[Assignment Instructions](https://egr557.github.io/assignments/data-collection-and-experimental-validation.html)
+
+![bot](fig1.png)\
+Fig 1 Podia Inspired Single Actuator Leg Robot
 Table of Contents 
 
 
-EGR 557- Team 5	0
-Table of Contents	1
-1.0 Procedure	2
-1.1 System Assembly	2
-1.2 Experimental Design	5
-1.3 Experimental Set up	6
-1.4 Results	7
-1.4.1 Optimization	7
-1.4.2 Experimental Results	7
-2.0 Discussion	9
-2.1	9
-2.2	10
-2.3	10
-2.4	11
-2.5	11
-2.6	12
-2.7	12
-3.0 Supplemental Materials	12
+## Team Response
+>**Content**\	
+[Procedure](Procedure)
+[System Assembly](System-Assembly)
+[Experimental Design](Experimental-Design)
+[Experimental Set up](Experimental-Set-up)
+[Results](Results)
+-[Optimization](Optimization)
+-[Experimental Results](Experimental-Results)
+[Discussion]
+[Supplemental Materials](Supplemental-Materials)
 
 
-1.0 Procedure
+[Candidate Organism for Bio Inspiration](#Candidate-Organism-for-Bio-Inspiration)\
+[Bio-inspired Robots](#Bio-inspired-Robots)\
+[Table of relevant info](#Table-of-relevant-info)\
+[Extrapolation (Fill in the gaps)](#Extrapolation-(Fill-in-the-gaps))\
+  -[Kinetic Energy](#Kinetic-Energy)\
+  -[Metabolic Rate](#Metabolic-Rate)\
+[Figures from literature](#Figures-from-literature)\
+[Simple engineering drawing](#Simple-engineering-drawing)\
+[Discussion](#Discussion)\
+  -[Rationale for animal](#Rationale-for-animal)\
+  -[Motor and battery](#Motor-and-battery)\
+[Plots and Figures](#Plots-and-Figures)\
+[References](#References)
+
+
+### 1.0 Procedure
 1.1 System Assembly
 Our system was constructed using low cost materials, consisting of cardstock, kite string, 3D printed parts, a 9V battery, a single DC motor, and a simple switch circuit. The switch was capable of turning the motor off as well as having the ability to go in both directions. Our experiments only consider one direction for motion. The 3D printed parts, contained in system A (see figure 1), consist of 5 gears, with the center gear driven by the motor, and the outermost gears having arms attached to them to drive the kite string cable, compressing the 3D printed springs. The springs were printed with a hook to hold the kite string, and caps on either end to ensure the spring compresses vertically. To adhere parts together, tape was used in all instances. 
 
