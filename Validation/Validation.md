@@ -117,4 +117,6 @@ Adding proper stiffness values to everything, even the frame, and not considerin
 Overall we would have to find more real world stiffness values, forces (friction of surface), and moments of inertia to fine-tune the model. This could be done with more cantilever beam experiments, and a sloped hill experiment to find a friction value of a surface. 
 
 ### Supplemental Materials
-Please see the provided zip file for the raw videos of the device moving. 
+<video width="432" height="288" controls autoplay loop>
+  <source type="video/mp4" src="val(1).mp4">
+</video>
