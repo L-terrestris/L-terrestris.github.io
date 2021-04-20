@@ -120,8 +120,10 @@ Overall we would have to find more real world stiffness values, forces (friction
 >The videos below show excerpts of the moving device.
 <video width="432" height="288" controls autoplay loop>
   <source type="video/mp4" src="val1.mp4">
+  
+  <source type="video/mp4" src="val2.mp4">
 </video>
-
+adhfhadfadfhadf
 <video width="432" height="288" controls autoplay loop>
   <source type="video/mp4" src="val2.mp4">
 </video>
